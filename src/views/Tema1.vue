@@ -362,9 +362,126 @@
     p.mb-3(data-aos="flip-left") Al igual que con las entrevistas, existen limitaciones económicas, de tiempo y de personal que impiden que se pueda recolectar la información de todos los individuos de una población que se espera estudiar.  Es por ello que se hace necesario la selección aleatoria o discrecional de personas a encuestar, cuyos resultados y conclusiones sean extrapolados a la totalidad de la población. Este sistema se conoce como muestreo y permite superar estos baches presupuestales para alcanzar resultados cercanos a la realidad.
     p.mb-5(data-aos="flip-left") La encuesta puede provenir de dos tipos de fuentes: internas y externas.
 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-lg-11.col-12
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-17.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="0%" y="13%" numero="+")
+            p Cuando la encuesta proviene de fuentes internas, como empleados, directivos o propietarios, es posible acceder a todos ellos y consultarles de forma directa para lograr resultados consolidados fidedignos y sin un margen de error apreciable.
+          .tarjeta.color-acento-botones.p-3(x="0%" y="32%" numero="+")
+            p Esta situación no se replica para las fuentes de información externas, por ejemplo, si se consulta a los proveedores es posible que no todos tengan disponibilidad o voluntad de responder o en el caso de los clientes, puede que el producto tenga un alcance tan amplio que el número total de clientes sea inmanejable.
 
+    p.mb-5(data-aos="flip-left") Entonces, ¿cuál puede ser una buena forma de realizar las encuestas?
 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-11.col-12    
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-18.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El muestreo es la herramienta que hace posible la recolección de esta información sin necesidad de acudir a la totalidad de los sujetos. por ejemplo, para saber de qué fruta está hecha una bebida no hace falta beberla toda, con un pequeño sorbo se puede intuir el componente principal de todo el contenido. De esta misma forma funciona la muestra, con un grupo significativo que pertenece a una población mayor se puede tener resultados muy cercanos a los que se obtendrían consultándolos a todos. 
 
+    p.mb-3(data-aos="flip-left") El sistema de muestreo puede ser tan improvisado o estructurado como se desee. Si se trata de análisis administrativos, en las empresas no existen requerimientos mínimos o máximos para llevar a cabo el trabajo, estas imposiciones son expresadas por los directivos interesados en los resultados. Situación diferente se da en el ámbito social o público, en el que las fichas técnicas en las que se listan los detalles de las encuestas deben cumplir con unos estándares técnicos que brinden una mayor credibilidad al ejercicio. 
+    p.mb-5(data-aos="flip-left") Para adentrarse un poco más en el proceso de estimación de una muestra objetiva y que cumpla con los requisitos propios de un trabajo sistemático se presentan algunas de las metodologías más utilizadas con una breve reseña de su mecánica:
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario" data-aos="flip-down")
+      .row.align-items-center.justify-content-center(titulo="Muestreo Aleatorio Simple (MAS)")
+        .col-md-11.col-12.mb-4.mb-md-0
+          p Bajo este sistema, todos los individuos que conforman una población tienen el mismo valor, así que cuentan con las mismas probabilidades de ser elegidos en la muestra. Como su nombre lo indica, los individuos son elegidos al azar, por ejemplo, si se quiere saber cuántos hombres o mujeres ingresan a la tienda a consultar los productos, todos los clientes tienen el mismo valor en la población.
+      .row.align-items-center.justify-content-center(titulo="Muestreo Aleatorio Estratificado (MAE)")
+        .col-md-11.col-12.mb-4.mb-md-0
+          p Cuando se evalúan más variables se pueden dar situaciones en las que los individuos puedan pertenecer a subgrupos, sobre los cuales se espera tener una participación equitativa, por ejemplo, si se evalúa el ambiente laboral de una empresa que tiene varias sedes administrativas y comerciales alrededor del país se espera que la muestra seleccione individuos de cada una para lograr un resultado más integral. Una forma práctica de hacerlo es definir la muestra en cada una de las sedes de forma independiente y luego consolidar todo en un estudio global. 
+      .row.align-items-center.justify-content-center(titulo="Muestreo sistemático (MS)")
+        .col-md-11.col-12.mb-4.mb-md-0
+          p Este método acude a patrones a partir de los cuales se listan los participantes de la muestra. Existen muchas posibilidades y será criterio de quien elabore el trabajo, elegir cuál se adapta mejor a la naturaleza del estudio. A modo de ejemplo, se puede plantear una situación en la que se listan todos los individuos objeto de investigación y se determina que, para esa muestra, será tomado uno de cada cinco.
+      .row.align-items-center.justify-content-center(titulo="Muestreo no probabilístico")
+        .col-md-11.col-12.mb-4.mb-md-0
+          p A diferencia de los sistemas anteriores, en este se obvia el azar a la hora de la escogencia de los individuos. Se realiza la selección de forma consciente, eligiendo cada persona de forma independiente. Al obedecer a la opinión del investigador, puede crear sesgos debido a la posición que tome el entrevistador, por ejemplo, trabajar con los empleados históricamente más problemáticos, los clientes que han interpuesto quejas o reclamos, o los proveedores que dependen de la empresa para mantenerse en el mercado, son situaciones que pueden llevar a conclusiones cuestionables.
+      
+    p.mb-3(data-aos="flip-left") Además del sistema de selección es importante determinar con qué proporción del total de la población se satisfacen las exigencias del estudio. Elegir el tamaño apropiado de la muestra para alcanzar estos objetivos puede ser tan complejo y preciso como se desee.
+    p.mb-3(data-aos="flip-left") Uno de los instrumentos que se pueden seleccionar de acuerdo con el tamaño de la muestra, es la encuesta, en su planeación es importante definir la proporción de la población según los objetivos trazados en la investigación. Vea algunos elementos esenciales que debe considerar.
+    p.mb-3(data-aos="flip-left") Comience por pensar en #[b la población o universo (N)] que se refiere al total de individuos sobre los que se espera proyectar las conclusiones, por ejemplo, toda la población de un municipio, los estudiantes de un colegio o los trabajadores de una empresa.
+    p.mb-5(data-aos="flip-left") A continuación, encontrará los elementos presentes al establecer el tamaño de la muestra:
+
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-down-right")
+      .tarjeta.color-primario.p-4(titulo="Nivel de confianza")
+        h4 Nivel de confianza
+        p Luego, se revisa el #[b nivel de confianza] que es un parámetro definido por el investigador, con el que se determina qué tan preciso se quiere que sea el estudio, los valores utilizados con mayor frecuencia obedecen a un factor estimado como se indica en la siguiente tabla, en donde es posible observar la puntuación estándar según el nivel de confianza. 
+        .tabla-a.color-primario.mb-4
+          table
+            caption Nota. Tomado de Qualtrics, (s.f.)
+            thead
+              tr
+                th Nivel de confianza
+                th Puntuación Estándar (Z)
+            tbody
+              tr 
+                td.text-center 90%
+                td.text-center 1.645
+              tr 
+                td.text-center 95%
+                td.text-center 1.96
+              tr 
+                td.text-center 99%
+                td.text-center 2.576
+        p El nivel de confianza se relaciona con: la precisión del estudio, los valores utilizados, y el factor estimado.
+      .tarjeta.color-primario.p-4(titulo="Margen de error (e)")
+        h4 Margen de error (e)
+        p El #[b margen de error (e)] mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población, por ejemplo, en un estudio se obtiene que la estatura promedio de las personas de la muestra es de 1.80 con un margen de error del 5%. Este indicador implica que la población oscilará entre 1.71 y 1.89, es decir, un 5% menor o un 5% mayor del valor obtenido.
+        p El margen de error se relaciona con el rango de tolerancia, la diferencia entre el resultado de la muestra y el de la población.
+      .tarjeta.color-primario.p-4(titulo="Probabilidad de éxito (p)")
+        h4 Probabilidad de éxito (p)
+        p La #[b probabilidad de éxito (p)] es un indicador que puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir, el 50%. 
+        p En relación a la probabilidad de éxito debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 50%.
+      .tarjeta.color-primario.p-4(titulo="Probabilidad de fracaso (q)")
+        h4 Probabilidad de fracaso (q)
+        p La #[b probabilidad de fracaso (q)] como en el indicador anterior, obedece a la evidencia de estudios previos, la suma de la probabilidad de éxito más la del fracaso debe ser igual al 100% de los eventos. Así pues, la probabilidad de fracaso será igual al 100% menos la probabilidad de éxito, en otras palabras, q = 1 – p
+        p En relación a la probabilidad de fracaso debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 100%.
+      .tarjeta.color-primario.p-4(titulo="Tamaño de la muestra")
+        h4 Tamaño de la muestra
+        p Para estimar el #[b tamaño de la muestra] se debe aplicar la siguiente ecuación:
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-19.svg")
+        p Donde:
+        p.mb-0 #[b n:] tamaño de la muestra.
+        p.mb-0 #[b N:] población.
+        p.mb-0 #[b Z:] puntuación estándar.
+        p.mb-0 #[b p:] probabilidad de éxito.
+        p.mb-0 #[b q:] probabilidad de fracaso.
+        p #[b e:] margen de error.
+        p Tenga en cuenta que para determinar el tamaño de la muestra de cualquier estudio se debe aplicar esta fórmula.
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-11.p-4(style="background-color:#E6F7DE")
+        p.mb-3(data-aos="flip-left") Un ejemplo para estimar el tamaño de la muestra sería:
+        p.mb-3(data-aos="flip-left") Si se espera determinar el grado de satisfacción que genera una marca que tiene cerca de 2.000 clientes regulares, con un nivel de confianza del 95 % y un margen de error del 5%, el cálculo para estimar el tamaño de la muestra será el que se muestra en el desarrollo de la fórmula.
+        p.mb-3(data-aos="flip-left") Grado de satisfacción que genera una marca:
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-20.svg")
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-21.svg")
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-22.svg")
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-23.svg")
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-24.svg")
+        p Tamaño de la muestra
+        div.mb-3
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-25.svg")
+        p Con el desarrollo de la ecuación se puede determinar que el tamaño de la muestra que cumple con los criterios del investigador, que en el ejemplo resultó un número con decimales, por lo que el valor se debe aproximar al número entero siguiente, que en nuestro caso es 323 personas, ya que no es posible consultar una fracción de un individuo.
+    p.mb-3(data-aos="flip-left") La encuesta es una de las metodologías de recolección de información de mayor facilidad de uso y practicidad en la actualidad; su aplicación tiene relevancia tanto en ambientes productivos y organizacionales, como en estudios académicos, sociales o económicos; lo anterior sustentado en su viabilidad para abordar poblaciones de tamaño considerable.
+    p.mb-5(data-aos="flip-left") Para lograr consolidar las respuestas obtenidas resulta especialmente recomendable hacer uso de sistemas de consolidación de información como la elaboración de tablas donde se presenten los individuos en las filas y las respuestas en las columnas. Para que este trabajo sea posible es importante que las preguntas sean cerradas y respondan a un número, carácter o rango. 
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-10.col-lg-8
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 Esta mecánica se conoce como tabulación y consiste en cambiar el formato de la información a tablas, especialmente útil con grandes cantidades de datos apilables según criterios.
+
+    p.mb-5(data-aos="flip-left") Para comprender mejor su funcionamiento es necesario entender dos conceptos básicos:
 
 
 
