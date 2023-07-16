@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Recolección de información y elaboración de informes',
+    descripcionCurso:
+      'La información se erige como uno de los ejes fundamentales de la gestión administrativa. Su papel es de vital importancia en todas las áreas de la organización, pues gracias a ella es posible ubicarse en el tiempo y en el espacio, bien sea para medir su evolución o para compararse con otros agentes del sector.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,13 +32,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de recolección de la información',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Criterios de selección',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Observación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Entrevista',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Encuesta',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Análisis de contenido',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,13 +66,19 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de priorización',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informes',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Catálogo de servicios de TI',
         desarrolloContenidos: true,
       },
     ],

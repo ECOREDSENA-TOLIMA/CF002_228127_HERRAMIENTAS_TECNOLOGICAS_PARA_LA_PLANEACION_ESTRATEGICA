@@ -1,11 +1,262 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.tema1
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Técnicas de recolección de la información
+
+    p.mb-3(data-aos="fade-down") En el campo investigativo la información toma un papel protagónico, por su condición tanto de materia prima de análisis como de resultado final. Y es que el estudio de cualquier tipo de situación o hecho busca aprender de sí mismo, bien sea para prevenir su ocurrencia, aprovecharla o anticiparla. 
+    p.mb-3(data-aos="fade-down") Con el objetivo de adentrarse en las diferentes metodologías de recolección de información, primero hace falta definirla y distanciarla de otros términos con los cuales puede ser confundida o reemplazada. Aunque estos aspectos pueden parecer muy elementales, marcan una diferencia a la hora de iniciar una investigación de cualquier naturaleza.
+    p.mb-5(data-aos="fade-down") Entonces, ¿cómo se puede definir la información en la jerga investigativa?
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-right")
+      .col-12.col-md-11.col-lg-11
+        .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-3.p-md-3
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-01.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-3
+            p.mb-0 La #[b información] es el resultado de la disposición de otro contenido, de tal forma que se le dote de una utilidad o propósito específico. Así, la forma previa de la información son los datos, que pueden definirse como una serie de registros o caracteres alfanuméricos que carecen de sentido.
+            br
+            br
+            | #[b Cuando se otorga un contexto a los datos se transforman en información y se revisten de una función.]
+
+    p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos vea el siguiente ejemplo:
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-6.col-lg-5.col-10
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="25%" y="91%" numero="+")
+            p Si tengo una lista de valores que no obedece a una escala ni presenta un orden determinado carece de significado; pero si conozco que esta lista corresponde a las unidades vendidas de cada uno de los productos que ofrece la empresa, trascienden de datos a información histórica o presente del volumen de ventas de una organización. Es así como obtienen relevancia y utilidad, pues permitirán medir la gestión comercial, el posicionamiento de la empresa o la evolución respecto a periodos anteriores.
+
+    p.mb-5(data-aos="fade-down") La información se puede presentar de multitud de formas, obedeciendo a distintos criterios que toman mayor importancia según la disciplina en la que sean utilizados. En el campo empresarial algunas de las clasificaciones más utilizadas son: 
+
+    p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-8.col-lg-6(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='')
+
+
+    .tarjeta.color-primario.p-4.mb-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su naturaleza
+            p #[b Cualitativa:]
+            p Corresponde a datos de tipo descriptivo, centrados en la presentación de características que permiten entender una situación o elemento. En una empresa, este tipo de información tiene especial relevancia cuando se trata de presentar un proceso determinado, la descripción de una estrategia aplicada o el recuento de una situación problemática o susceptible de mejora, entre otros. 
+        
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-6.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-04.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su naturaleza
+            p #[b Cuantitativa:]
+            p Este tipo de información se caracteriza por presentarse en cantidades, es decir, los datos son numéricos y obedecen a algún tipo de escala. Así, normalmente se hace uso de esta información para presentar datos de recaudo, ventas o apalancamiento. Goza de mayor objetividad, puesto que la escala no suele depender del investigador, ni del interprete. 
+            p Por ejemplo, los días que pasan entre la venta de un producto y el recaudo del dinero, pueden contrastarse con los que da un proveedor después de entregar la materia prima, definir cuál ocupa un periodo de tiempo más largo no es susceptible a distintas opiniones.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-05.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su naturaleza
+            p #[b Cuantitativa:]
+            p Para tener en cuenta...
+            p Este sistema suele ser el más utilizado para clasificar la información en ambientes administrativos, ya que con ello es posible elegir una metodología que se ajuste al tipo de datos que serán suministrados por las personas involucradas. Para la recolección de información, la naturaleza cuantitativa ofrece mayores facilidades si se busca abordar un gran número de personas, puesto que existen estrategias para consolidar la información en un número reducido de variables. 
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-06.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su naturaleza
+            p #[b Cualitativa y cuantitativa:]
+            p Es posible que ambos tipos de información se complementen y permitan entregar resultados mucho más completos a los interesados. Claro ejemplo de ello son los estados financieros, que ofrecen diversos valores que dan cuenta de la estructura financiera y el resultado del ejercicio de una compañía; pero que por disposición normativa deben venir acompañados de unas revelaciones, cuyo detalle suele incluir una descripción detallada de las características de cada rubro. 
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-6.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-07.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su destinatario
+            p #[b Interna:]
+            p Es la información recolectada para el interior de la organización. Usualmente involucra un número limitado de personas, sobre las cuales se aplican los instrumentos elegidos para ello.  Puede comprender temáticas restringidas, como las recetas aplicadas en la producción para darle al producto un sabor característico, hasta aspectos mucho más universales, como la edad promedio de la planta de personal.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su destinatario
+            p #[b Externa:]
+            p Recolecta los datos y los presenta de tal forma que le puedan ser de utilidad a un gran número de personas. Un ejemplo de ello, es la rendición de cuentas que ofrecen las compañías que administran recursos de terceros. Se diseñan informes en los que se da claridad respecto a cada proceso a quienes hayan invertido o deseen invertir en la empresa, por lo que gozan de plena libertad para ser interpretada o compartida.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-6.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-09.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su restricción
+            p #[b Privilegiada:]
+            p Es la información con mayor cantidad de barreras y dirigida a un número muy limitado de personas. Un claro ejemplo de ello son los códigos fuentes de software licenciado o las contraseñas de acceso a las cuentas bancarias. Su publicación o fuga puede llegar a tener un fuerte impacto sobre los intereses de la empresa y sus administradores.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-10.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su restricción
+            p #[b Privada:]
+            p Se ubica en un rango intermedio, por lo que existen restricciones respecto a su uso; pero los usuarios interesados son muchos más. En esta categoría podrían incluirse aspectos como el número telefónico de personas expuestas públicamente, historiales crediticios o grabaciones de reuniones con el personal de nivel táctico u operativo.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Según su restricción
+            p #[b Pública:]
+            p En esta categoría se maneja información sin restricción de acceso, es decir, cualquier tipo de reporte, declaración o informe que pueda ser conocido por cualquier persona. A diferencia de los casos anteriores, aquí puede resultar beneficioso que la información se masifique, por ejemplo, si se habla de una campaña publicitaria para un producto, el posicionamiento de una empresa como líder del mercado o el reconocimiento de algún premio por la aplicación de políticas amigables con el medio ambiente.
+          .col-md-6
+            .row.align-items-center.justify-content-center
+              .col-md-11.col-12
+                figure
+                  img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
+
+    p.mb-3(data-aos="flip-left") La correcta clasificación de la información puede redundar en políticas de recolección y análisis más apropiadas para el propósito de los investigadores, es por ello que comprender cada categoría puede permitir una mejor planeación a la hora de ejecutar estrategias relacionadas con su recolección.
+    p.mb-5(data-aos="flip-left") Teniendo claridad sobre qué es la información, su naturaleza y su importancia en la gestión administrativa es procedente dar cabida a las técnicas para su recolección. 
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-10.col-lg-8
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 Las técnicas surgen como herramientas procedimentales y prácticas a través de las cuales se obtendrán los datos necesarios para llevar a cabo el trabajo de análisis, por lo que los resultados a conseguir dependerán en gran medida del acierto en la elección de las metodologías apropiadas. 
+  
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 Criterios de selección
+
+    p.mb-3(data-aos="flip-left") La información puede ser tomada del ambiente a partir de diferentes modelos; sin embargo, existen una serie de elementos que condicionan su naturaleza y, por lo tanto, responden mejor a ciertos procedimientos. A continuación, se presentan los aspectos a tener en cuenta a la hora de elegir el sistema más adecuado para la recolección de la información:
+    p.mb-5(data-aos="flip-left") Definir el tipo de información a recolectar: según el propósito y el área que se desee auditar o evaluar en una organización, el tipo de contenido con el que se puede encontrar el encargado del trabajo puede variar, por ejemplo, vea qué podría pasar en la evaluación de gestión del área financiera:
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")(data-aos="zoom-down")
+      .row(titulo="Opción 1")
+        .col-md-4.col-lg-3.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-12.svg', alt='')
+        .col-md-8.col-lg-9.mb-4.mb-md-0
+          p Puede predominar el estudio de indicadores, la evaluación de resultados, la composición de la estructura financiera, entre otros. Así, es probable que la mayor cantidad de información obtenida y relevante pueda ser expresada en valores y, por lo tanto, ser susceptible de herramientas de análisis como la tabulación o los gráficos que aporten contenido relevante al resultado. 
+      .row(titulo="Opción 2")
+        .col-md-4.col-lg-3.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-13.svg', alt='')
+        .col-md-8.col-lg-9.mb-4.mb-md-0
+          p Si se espera diagnosticar: la aplicación de políticas de servicio al cliente, es probable que el análisis apunte a la revisión de testimonios, a las estrategias para abordar a quien presenta quejas o reclamos o la actitud de los asesores. Prima la información de aspecto cualitativo; el análisis y sus conclusiones pueden apegarse más al ámbito descriptivo, presentando reseñas sobre los elementos clave del trabajo efectuado por el personal de área evaluada.
+
+    p.mb-5(data-aos="flip-left") Estimar la cantidad de personas o elementos a indagar: si la evaluación se focaliza en un número reducido de personas o actividades el auditor puede efectuar un trabajo más individualizado, tratando con cada persona de forma directa y destinando todo el tiempo que considere necesario para obtener la mayor cantidad de información posible. Vea el siguiente ejemplo:
+    
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-5.col-12.mb-4.mb-md-0
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='')
+      .col-md-7.col-12.mb-4.mb-md-0
+        p Si se espera analizar la idoneidad de los procesos productivos de una planta con cinco trabajadores, a cada uno de ellos se les podrá hacer todas las preguntas y retroalimentaciones que surjan durante el acercamiento, lo que permite ahondar en problemáticas no contempladas inicialmente o encauzar el trabajo a aspectos específicos que se determinen en el proceso. 
+        p En cambio, si el aspecto estudiado involucra muchos individuos, es posible que deba limitarse el tiempo que se destine a cada uno de ellos; en algunos casos puede ser necesario estandarizar la recolección de información para aplicar a grandes grupos de forma más rápida. En estos casos, la calidad de la información y su nivel de detalle suelen disminuir, pero permiten obtener una visión general cercana a la realidad. 
+        p Entonces, ¿cuál puede ser una situación práctica que se genere frecuentemente en estas condiciones?
+
+    p.mb-3(data-aos="flip-left") Una situación práctica que se genera con frecuencia es la recolección de información respecto a la calidad o efectividad de un producto o servicio vendido a los clientes de la organización. Un formulario que contenga preguntas concretas y rápidas de responder puede resultar una buena forma de realizar el primer acercamiento a la percepción general de la demanda respecto a una referencia en particular.
+    p.mb-3(data-aos="flip-left") Evaluar las regulaciones aplicables: si el objetivo detrás del estudio es la implementación de estrategias en un proceso interno de mejora, las exigencias serán determinadas por la misma organización, lo que ofrece flexibilidad a la hora de elegir metodologías de recolección y análisis de los datos. 
+    p.mb-3(data-aos="flip-left") De esta forma, el trabajo obedecerá a unos propósitos de gestión que pueden refinarse en la ejecución del trabajo. Así, el auditor o investigador puede tomar libertades creativas en la aplicación de medidas que apunten a la obtención de información veraz, diseñando papeles de trabajo a la medida.
+    p.mb-3(data-aos="flip-left") Si se trata de un trabajo enfocado a la certificación en algún estándar en particular el trabajo será mucho más regulado, lo que implica mantenerse dentro de un margen más restrictivo en cuanto a los sistemas aplicados para llevar a cabo la tarea. 
+    p.mb-3(data-aos="flip-left") Para este tipo de situaciones el trabajo del analista debe someterse a las indicaciones descritas por la autoridad competente, por lo que la elección de las metodologías de recolección probablemente no dependa de él.
+    p.mb-5(data-aos="flip-left") Contemplar los recursos disponibles: los trabajos asociados con el estudio y análisis de la información pueden ser tan variados como la creatividad de los investigadores que los ejecutan.
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-10.col-lg-8
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 En el ámbito empresarial existe un principio administrativo conocido como costo-beneficio, y como su nombre lo indica, cualquier medida implementada debe propender por la obtención de beneficios que, en conjunto, superen el esfuerzo y los costos asociados con ella.
+
+    p.mb-3(data-aos="flip-left") En términos prácticos, toda estrategia debe justificar su ejecución al aportar a la empresa más de lo que le cuesta. En este aspecto si una empresa busca implementar controles de calidad, estos deben reducir las pérdidas ocasionadas por productos defectuosos a los que se les solicita la garantía a un nivel en el que le ahorren a la empresa más gastos que los que demandó llevar a cabo la aplicación de los controles.
+    h3.mb-3(data-aos="flip-left") Es muy importante que tenga en cuenta que:
+    p.mb-3(data-aos="flip-left") Si las metodologías de recolección de información son muy complejas o requieren mucho tiempo y personal, su costo se irá incrementando de forma proporcional. Es por ello que durante la fase de planeación es necesario contar con un presupuesto detallado que contemple los recursos que serán necesarios. A partir de ello, se podrán programar medidas más o menos costosas. 
+    p.mb-5(data-aos="flip-left") Así, si se busca realizar acercamientos a trabajadores en las distintas sedes de una compañía que opera a nivel nacional, pueden evaluarse alternativas como video llamadas o comunicación diferida, que reduzcan los costos de desplazamiento, así como el tiempo que este tipo de labores involucra.
+
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Observación
+
+    p.mb-5(data-aos="flip-left") La observación es la acción que desarrolla cualquier persona (o incluso animal) para obtener información del entorno que lo rodea. Es gracias a ella que se registran situaciones, eventos o lugares en un tiempo determinado, y que se asocian a estímulos o acciones, por ejemplo, cuando se pasa frente a una calle llena de restaurantes es normal analizar su oferta gastronómica para luego priorizarlas en función de los gustos personales. Conozca los beneficios de esta técnica:
+
+    .row.justify-content-center.mb-5
+      .col-12(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='')
+
+    p.mb-5(data-aos="flip-left") Para aplicar la metodología de forma apropiada es recomendable efectuar una serie de acciones que apunten a obtener información en la cantidad y calidad suficiente para satisfacer los requerimientos asociados con el trabajo:
+
+    TabsA.color-acento-contenido.mb-4(data-aos="fade-down-right")
+      .tarjeta.color-primario.p-4(titulo="Determinar el objeto de la observación")
+        h4 Determinar el objeto de la observación
+        p Esto significa tener claridad de qué es lo que se va a observar y para qué se hará; se encuentra estrechamente asociado con el objetivo del estudio, tener claridad de su propósito permite enfocar el trabajo en una dirección u otra.
+      .tarjeta.color-primario.p-4(titulo="Secuencia de acciones")
+        h4 Secuencia de acciones
+        p Planear una secuencia de acciones determinada, que permita seguir un cronograma de actividades de forma eficiente y aprovechando los recursos disponibles.
+      .tarjeta.color-primario.p-4(titulo="Cumplir con las proyecciones")
+        h4 Cumplir con las proyecciones
+        p Ejecutar el trabajo tratando de cumplir con las proyecciones, esto maximizará la efectividad del trabajo de observación, por ejemplo, si se busca medir la capacidad de los empleados en situaciones determinadas, se debe acudir en el momento en el que las condiciones sean idóneas para evidenciar de forma clara la situación.
+      .tarjeta.color-primario.p-4(titulo="Equipo de trabajo competente")
+        h4 Equipo de trabajo competente 
+        p Si el trabajo lo amerita, designar un equipo de trabajo competente y que se complemente en las labores, de tal forma que su trabajo mancomunado potencie los resultados. Es recomendable que el observador sea un experto en la materia estudiada, puesto que su criterio puede aportar al análisis desde las etapas tempranas de la ejecución.
+
+    p.mb-5(data-aos="flip-left") La aplicación de esta metodología puede ser tan estructurada como la situación evaluada lo amerite, es por ello que se han diseñado instrumentos que funcionan como herramientas que apoyan la labor y le permiten ejecutar el trabajo de una forma organizada y controlada. Emanuelli (2012) presenta algunos de ellos:
+
+    TabsA.color-acento-contenido.mb-4(data-aos="fade-down-right")
+      .tarjeta.color-primario.p-4(titulo="El diario")
+        h4 El diario
+        p Funciona como un cuaderno, en el cual se registran todas las situaciones asociadas a la observación. Es muy flexible en cuanto a estructura y diligenciamiento, por lo que puede incluir observaciones, consejos o comentarios. Incluso imágenes, dibujos o gráficos que aporten al análisis. Actualmente es posible contar con ellos a través de celulares o computadores, haciendo uso de herramientas como un bloc de notas o procesadores de texto. 
+        p Se recomienda que las aportaciones escritas sean lo suficientemente claras para ser consultadas a futuro, lo que implica un nivel de detalle suficiente para no dejar espacio a interpretaciones. Para que esto sea posible es necesario diligenciarlo de forma continua, durante la ejecución de las tareas de observación, puesto que así se garantiza el mayor nivel de fidelidad. 
+      .tarjeta.color-primario.p-4(titulo="Mapas")
+        h4 Mapas
+        p En esta categoría se incluyen diagramas, planos y cualquier tipo de figura que aporte información complementaria al diario. Tienen especial utilidad para trabajos que involucran distintas locaciones, por ejemplo, si se están evaluando las rutas de distribución de los productos, es posible resaltar las vías utilizadas sobre un mapa de cada ciudad o municipio, y con ello identificar rutas más cortas o seguras.
+        p Al igual que en el caso anterior, entre más información se registre, mayor claridad habrá a la hora de alcanzar conclusiones. Complementando el ejemplo previo, pueden colorearse las zonas en función de los niveles de tráfico o de acuerdo con las estadísticas de delincuencia publicadas por las autoridades, y con ello sustentar cualquier tipo de decisión. 
+      .tarjeta.color-primario.p-4(titulo="Dispositivos mecánicos")
+        h4 Dispositivos mecánicos
+        p Pertenecen a esta categoría todas las herramientas que permiten registrar las situaciones de forma directa de la fuente. En este sentido, si se está consultando a los clientes por su nivel de satisfacción con el producto, hacer uso de sistemas de grabación permite la consulta posterior de las respuestas, es por ello que muchas entidades informan que las llamadas serán grabadas para efectos de calidad y evaluación. 
+        p En este rubro también se incluyen sistemas como las cámaras fotográficas o de video, que permiten conservar aún más información en otros formatos, lo que dota de facilidades el trabajo del auditor, sobre todo cuando quiere retomar eventos pasados.
+      .tarjeta.color-primario.p-4(titulo="Cuadros de trabajo")
+        h4 Cuadros de trabajo
+        p Complementan el trabajo de registro previo y consiste en la generación de tablas que compilen la información recolectada. Según la cantidad de información puede variar su distribución; pero, la forma más utilizada consiste en disponer a los participantes en las filas y las respuestas en las columnas. 
+        p Esta herramienta aporta mucha utilidad cuando la información es diversa y proviene de distintas fuentes, puesto que al consolidar los datos permite presentarlos de una forma más amigable para los interesados. Cabe resaltar que este sistema tiene aplicabilidad prácticamente en todas las metodologías de recolección de la información.
+
+    p.mb-5(data-aos="flip-left") A continuación, se presenta un ejemplo en el que un concesionario quiere identificar los colores más demandados para cada uno de sus modelos de vehículos, por lo que se anotaron el modelo y el color de todos los carros que ingresaron a revisión periódica en una semana, así:  
+
+
+
+
+
+
+
+
+
+
+
+
       
 </template>
 
