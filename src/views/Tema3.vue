@@ -38,7 +38,41 @@
           .tarjeta.color-acento-botones.p-3(x="100%" y="94%" numero="+")
             p Funciona como un punto intermedio entre un informe técnico y uno divulgativo. Se abordan temáticas específicas, pero dirigidas a un público más amplio, por lo cual se trata de simplificar aspectos no tan relevantes para facilitar el entendimiento.
 
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Estructura según las normas técnicas
 
+    p.mb-4(data-aos="flip-left") Los informes, al ser un documento de especial atención, deben cumplir con una serie de requerimientos para facilitar la comprensión y aprovechamiento de la información que en ellos se dispone. Se presentan dos de las normativas técnicas más utilizadas en Colombia:
+
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Estructura bajo las Normas APA
+    
+    p.mb-4(data-aos="flip-left") Las Normas APA son un estándar creado por la Asociación de Psicólogos Americanos o APA por sus siglas en inglés, centrado en el establecimiento de lineamientos específicos para la producción de documentos escritos a nivel internacional. Su uso es de amplio espectro cubriendo desde trabajos académicos, de investigación o de naturaleza económica. Actualmente, cuentan con una gran popularidad por lo que son consideradas como el marco más utilizado en una gran porción de los sectores académicos, económicos y sociales alrededor del mundo. En su manual de aplicación se detallan las características específicas de cada uno de los apartados del documento, lo que incluye portada, resumen, introducción, resultados, citas, referencias, entre otros.
+    
+    .h4.py-4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Estructura bajo la Norma Técnica de Calidad (NTC 1486)
+    
+    p.mb-3(data-aos="flip-left") Al igual que en el caso anterior, se centra en las reglas para la presentación de trabajos escritos, tiene especial énfasis en trabajos de investigación y académicos; pero puede ser utilizada en cualquier ámbito. Son emitidas por el Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC.
+    p.mb-4(data-aos="flip-left") Cada una de las secciones que comprende el informe tiene su propio apartado dentro de la norma técnica, lo que permite ser específico y preciso en su presentación. Algunos apartados allí descritos son la tapa, la portada, las listas especiales, el glosario, el resumen, la introducción, el capítulo, las conclusiones, las recomendaciones, la bibliografía, los índices, los anexos, entre otros.
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-11.col-lg-10.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta.color-acento-contenido.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/documento.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4 Normas APA e INCONTEC
+                  p.text-small Para conocer algunas de las generalidades de las Normas APA e INCONTEC se invita a consultar el siguiente PDF.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Cuadro comparativo normas para presentar informes.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+
+    p.mb-3(data-aos="flip-left") La elección de un sistema u otro dependerá de lo que se busca con la presentación del informe y el tipo de público al que va dirigido. En algunas ocasiones es exigencia de los superiores el uso del uno o del otro; sin embargo, cada uno tiene un enfoque que lo hace más viable según el escenario que se espera trasladar al documento. 
 
 
 
