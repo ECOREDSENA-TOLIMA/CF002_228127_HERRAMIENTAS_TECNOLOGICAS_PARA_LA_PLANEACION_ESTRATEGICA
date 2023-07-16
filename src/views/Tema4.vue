@@ -118,11 +118,57 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Catálogo de servicios 
 
-    p Un catálogo de servicios de TI se presenta como una fuente de información confiable sobre todos los servicios de TI que ofrece la unidad de tecnologías de una organización. 
+    p.mb-5(data-aos="fade-down") Un catálogo de servicios de TI se presenta como una fuente de información confiable sobre todos los servicios de TI que ofrece la unidad de tecnologías de una organización. 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10
+        .bloque-texto-d.color-primario.p-4(data-aos="fade-down")
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            p.mb-0 ITIL define un catálogo de servicios como una base de datos centralizada que contiene información acertada sobre las ofertas de servicios de TI activas, es decir, es un mostrador o vitrina desde el cual los usuarios finales (internos o externos) solicitan servicios y productos desde la mesa de servicios de TI.
+            i.fas.fa-quote-right
 
+    p.mb-3(data-aos="fade-down") Entonces, #[b ¿cuáles son los componentes de un catálogo de servicios y sus beneficios?]
+    p.mb-3(data-aos="fade-down") El catálogo de servicios proporciona claridad a los usuarios finales sobre los servicios ofrecidos y generalmente incluye la siguiente información:
+    ul.lista-ul.mb-4(data-aos="fade-down")
+      li.mb-0
+        i.fas.fa-angle-right
+        | Categoría del servicio.
+      li.mb-0
+        i.fas.fa-angle-right
+        | Descripción del servicio.
+      li.mb-0
+        i.fas.fa-angle-right
+        | Disponibilidad del servicio.
+      li.mb-0
+        i.fas.fa-angle-right
+        | SLA específicos del servicio.
+      li.mb-0
+        i.fas.fa-angle-right
+        | Propietario del servicio.
+      li.mb-0
+        i.fas.fa-angle-right
+        | Costos del servicio (si procede).
 
+    p.mb-3(data-aos="fade-down") En esencia, el catálogo de servicios es parecido a un menú de un restaurante o una lista de productos en un sitio web de comercio electrónico. Sin esto, los clientes no podrían hacer un pedido, por lo tanto, su objetivo es generar beneficios para los usuarios finales y las organizaciones. Entre los más representativos se tienen los siguientes:
 
+    
+    .row.mb-5
+      .col-md-4.col-12.mb-4.mb-md-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema4/tema4-03.svg', alt='')
+        h4.pt-3 Agiliza la comunicación
+        p Un catálogo de servicios diseñado acertadamente actúa como el único punto de contacto, para que los usuarios finales vean la lista de servicios disponibles y sus características.
+      .col-md-4.col-12.mb-4.mb-md-0(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema4/tema4-04.svg', alt='')
+        h4.pt-3 Estandariza la prestación de servicios
+        p Al entregar una lista de servicios selecta y definir los parámetros de entrega asociados.
+      .col-md-4.col-12.mb-4.mb-md-0(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/temas/tema4/tema4-05.svg', alt='')
+        h4.pt-3 Optimiza los costos
+        p Se tiene el control de la oferta de servicios, su demanda y uso, por lo que las compañías pueden utilizar el catálogo de servicios como una herramienta para identificar las ofertas de alto valor que son críticas para el negocio.
 
 </template>
 
