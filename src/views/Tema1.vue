@@ -293,7 +293,74 @@
 
     p.mb-5(data-aos="flip-left") La elaboración del cuadro anterior permite analizar la información desde una nueva perspectiva y alcanzar nuevas conclusiones, por ejemplo, que el modelo 3 tiene mayor aceptación a nivel comercial, que el color más común es el blanco o que la combinación más popular es el modelo 1 de color negro, entre otros. 
 
+    Separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Entrevista
 
+    p.mb-3(data-aos="flip-left") Se considera una de las metodologías más útiles para recolectar información cualitativa, dado que facilita las interacciones entre las partes. El entrevistador suele contar con una batería de preguntas dirigidas a obtener datos relevantes de los sujetos entrevistados y encontrar elementos comunes entre cada uno de ellos, para identificar patrones o situaciones que demanden atención.
+    p.mb-5(data-aos="flip-left") De acuerdo con esto, ¿cuál es la diferencia más significativa entre la entrevista y la observación? 
+
+    .row.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-5.col-lg-4.col-12.mb-4.mb-md-0
+        .h4.py-3.mb-4(data-aos="zoom-down-right").titulo-herramientas-2 Observación
+        p El investigador tiene la posibilidad de interactuar con los sujetos evaluados, lo que significa que es posible encauzar el instrumento a una posición en la que suministre la información que se requiere.
+      .col-md-5.col-lg-4.col-12.mb-4.mb-md-0
+        .h4.py-3.mb-4(data-aos="zoom-down-right").titulo-herramientas-2 Entrevista
+        p El investigador se aísla de los eventos estudiados, limitando su margen de maniobra para encontrar las situaciones esperadas.
+
+    p.mb-5(data-aos="flip-left") Como ya se mencionó, la metodología de la entrevista se centra en la interacción con los sujetos investigados a través de un diálogo, según el tipo de conversación permite clasificar la entrevista entre las siguientes posibilidades:
+
+    .row.justify-content-center.mb-5
+      .col-12.col-md-10.col-lg-8(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de entrevista</i>
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-16.svg', alt='')
+
+    p.mb-5(data-aos="flip-left") La entrevista puede ser muy efectiva para obtener información de parte de los empleados o terceros involucrados con los procesos en evaluación, del acercamiento con ellos pueden surgir apreciaciones que los evaluadores han pasado por alto como, por ejemplo, la forma en la que reaccionan los clientes a las características específicas de un producto, su precio o su presentación. 
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-10.col-lg-8
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 La comunicación asertiva aporta un ambiente organizacional más ameno, en algunas ocasiones los empleados perciben desinterés por parte de sus superiores, por lo que definir entrevistas periódicamente para escuchar sus opiniones puede tener implicaciones emocionales que redunden en la productividad y en la generación de un sentido de pertenencia. 
+
+    p.mb-5(data-aos="flip-left") Para llevar a cabo una entrevista efectiva es recomendable que se tomen en cuenta ciertas prácticas que garanticen una adecuada ejecución para la obtención de los resultados esperados. Las siguientes son algunas de las actividades a tener presente para el buen uso de esta metodología:  
+    
+    PasosA.color-acento-contenido.mb-5(tipo="l")
+      div
+        h3 Definición de la problemática
+        p Como en cualquier sistema de recolección de información es importante dirigir todos los esfuerzos a la consecución de datos relevantes para la problemática que se está abordando. Sin una debida justificación la entrevista carecerá de sentido y dificultará tanto el trabajo del entrevistador como las posibles respuestas del entrevistado. Si es posible, además de presentar la problemática de forma precisa, debe estimarse el horizonte de tiempo en el que se espera solucionar.
+      div
+        h3 Estimar el tamaño de la muestra
+        p Definir las personas a las que se les hará la aproximación puede resultar útil para la estimación del presupuesto y el margen de error esperado. Entre más personas sean abordadas, más posibilidades habrá de alcanzar conclusiones cercanas a la realidad, de la misma forma, si se determina restringir el estudio a zonas geográficas, la planificación para aspectos como transporte y disponibilidad de los entrevistadores puede facilitar el contar con los recursos necesarios para llevar a cabo el trabajo.
+      div
+        h3 Planificación de la entrevista
+        p Para el ámbito administrativo no se acostumbra realizar entrevistas improvisadas porque se rompe con el esquema de planificación y desarrollo de la problemática que motivó el trabajo de investigación. La entrevista puede dividirse en tres momentos fundamentales: comienzo, desarrollo y cierre.
+        .row.justify-content-center.align-items-center.mb-5
+          .col-12.mb-4.mb-md-0(data-aos="fade-left")
+            .tarjeta.color-acento-contenido.p-3
+              .row.justify-content-around.align-items-center
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h4 Partes de la entrevista
+                      p.text-small Para conocer qué se realiza en cada uno de estos momentos consulte el siguiente PDF.
+                    .col-sm-auto
+                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/Partes de la entrevista.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
+      div
+        h3 Análisis de la información
+        p Una vez finalice el acercamiento con los sujetos estudiados es necesario iniciar un proceso de lectura y análisis de las respuestas obtenidas. Debido a su naturaleza, la información estará dispersa entre sus argumentos y será necesario evaluar con ojo crítico la verdadera posición del entrevistado. Dispositivos como las cámaras o grabadoras de audio pueden resultar de especial utilidad, puesto que el registro escrito puede dejar de lado aspectos relevantes como el lenguaje corporal o la intencionalidad a la hora de dar las respuestas.
+        p Inevitablemente, el análisis de las respuestas tendrá un alto componente subjetivo, ya que pueden darse distintas interpretaciones a partir de un mismo enunciado. Para minimizar este potencial riesgo de sesgo se recomienda que se involucren otros expertos y buscar aquellos elementos comunes obtenidos tras su análisis.
+
+    Separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Encuesta
+
+    p.mb-3(data-aos="flip-left") Este sistema consiste en el registro de situaciones, a partir de cuya información se procede a indagar a las personas que la suministraron. Este es un método descriptivo, centrado en identificar y distinguir hábitos, ideas, preferencias, entre otros.
+    p.mb-3(data-aos="flip-left") Al igual que con las entrevistas, existen limitaciones económicas, de tiempo y de personal que impiden que se pueda recolectar la información de todos los individuos de una población que se espera estudiar.  Es por ello que se hace necesario la selección aleatoria o discrecional de personas a encuestar, cuyos resultados y conclusiones sean extrapolados a la totalidad de la población. Este sistema se conoce como muestreo y permite superar estos baches presupuestales para alcanzar resultados cercanos a la realidad.
+    p.mb-5(data-aos="flip-left") La encuesta puede provenir de dos tipos de fuentes: internas y externas.
 
 
 
