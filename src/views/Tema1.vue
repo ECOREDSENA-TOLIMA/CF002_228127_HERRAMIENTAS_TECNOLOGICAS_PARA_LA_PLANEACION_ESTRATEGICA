@@ -246,8 +246,52 @@
 
     p.mb-5(data-aos="flip-left") A continuación, se presenta un ejemplo en el que un concesionario quiere identificar los colores más demandados para cada uno de sus modelos de vehículos, por lo que se anotaron el modelo y el color de todos los carros que ingresaron a revisión periódica en una semana, así:  
 
+    .row.justify-content-center.mb-4
+      .col-12(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Formato cuadro de trabajo</i>
+        .tabla-a.color-primario.mb-4
+          table
+            thead
+              tr
+                th Color
+                th Modelo 1
+                th Modelo 2
+                th Modelo 3
+                th Total
+            tbody
+              tr 
+                td.text-center Blanco
+                td.text-center 8
+                td.text-center 9
+                td.text-center 9
+                td.text-center 26
+              tr 
+                td.text-center Negro
+                td.text-center 10
+                td.text-center 7
+                td.text-center 8
+                td.text-center 25
+              tr 
+                td.text-center Rojo
+                td.text-center 6
+                td.text-center 8
+                td.text-center 9
+                td.text-center 23
+              tr 
+                td.text-center Gris
+                td.text-center 5
+                td.text-center 6
+                td.text-center 7
+                td.text-center 18
+              tr 
+                th.text-center Total
+                td.text-center 29
+                td.text-center 30
+                td.text-center 33
+                td.text-center 92
 
-
+    p.mb-5(data-aos="flip-left") La elaboración del cuadro anterior permite analizar la información desde una nueva perspectiva y alcanzar nuevas conclusiones, por ejemplo, que el modelo 3 tiene mayor aceptación a nivel comercial, que el color más común es el blanco o que la combinación más popular es el modelo 1 de color negro, entre otros. 
 
 
 
