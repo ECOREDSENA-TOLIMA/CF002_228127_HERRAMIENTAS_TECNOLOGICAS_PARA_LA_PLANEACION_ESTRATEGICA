@@ -483,6 +483,112 @@
 
     p.mb-5(data-aos="flip-left") Para comprender mejor su funcionamiento es necesario entender dos conceptos básicos:
 
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-26.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="0%" y="24%" numero="+")
+            p Consiste en el conteo de las respuestas para la variable, es decir, el número de personas que fueron abordadas con una misma pregunta. Su valor se expresa en números naturales o absolutos, es decir, 1, 10 o 100 personas.
+          .tarjeta.color-acento-botones.p-3(x="82.3%" y="62%" numero="+")
+            p Mide la proporción de participantes que dieron una respuesta en concreto a la variable consultada. Se mide en porcentajes, por lo que, si la mitad de las personas respondieron sí, y la otra mitad no, las frecuencias relativas serían del 50 % para cada respuesta.
+
+    p.mb-3(data-aos="flip-left") Cuando las posibilidades de respuesta son muy amplias como, por ejemplo, si se pregunta la edad de las personas es recomendable agrupar varias respuestas en función de rangos o intervalos. Entonces, ¿cómo se pueden definir estos intervalos?
+    p.mb-5(data-aos="flip-left") Los rangos o intervalos facilitan que la información se exponga de forma más digerible y en segmentos que no cambian las conclusiones por no presentarse en forma más detallada. 
+
+    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
+      .col-12.col-md-10.col-lg-8
+        .cajon.color-acento-contenido.p-3
+          p.mb-0 Para que la creación de intervalos resulte pertinente se recomienda que sean excluyentes, es decir, que una respuesta no pueda estar en más de un intervalo a la vez, y que todas las respuestas encajen dentro de una de las categorías, evitando así, respuestas huérfanas que no tengan dónde tabularse.
+
+    p.mb-3(data-aos="flip-left") Estos intervalos obedecen a la opinión de quien lleva a cabo el trabajo, por lo que puede variar según criterios; en la medida de lo posible se recomiendan intervalos que sean parejos, de tal forma que cada uno agrupe un mismo rango de respuestas posibles. Esta situación no es imperativa, ya que en ciertos análisis puede resultar más conveniente el uso de intervalos irregulares con aplicación práctica. Para entender mejor, vea el siguiente ejemplo: 
+    p.mb-5(data-aos="flip-left") Si la consulta en concreto es sobre la edad promedio de los clientes, los intervalos irregulares, según los sistemas demográficos, podrían ser más útiles. A continuación, se presenta una tabla en la que se resumen los resultados de una encuesta en la que se consultó la edad a cien personas:          
+
+    .row.justify-content-center.mb-4
+      .col-12.col-md-10(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Tabulación de datos cuantitativos</i>
+        .tabla-a.color-primario.mb-4
+          table
+            thead
+              tr
+                th Variable
+                th Frecuencia absoluta
+                th Frecuencia relativa
+            tbody
+              tr 
+                td.text-center Menores de 18 años
+                td.text-center 27
+                td.text-center 27%
+              tr 
+                td.text-center Mayores de 18 años y menores de 60 años
+                td.text-center 53
+                td.text-center 53%
+              tr 
+                td.text-center Mayores de 60 años
+                td.text-center 20
+                td.text-center 20%
+              tr 
+                th.text-center Total de encuestados
+                th.text-center 100
+                th.text-center 20%
+
+    p.mb-5(data-aos="flip-left") Como sistema de comprobación, la suma de las frecuencias absolutas debe ser equivalente al total de las personas encuestadas; de resultar menor puede deberse a que no se incluyó la respuesta de alguien en ella. La relativa, por su parte, al sumarse debe ser equivalente al 100%. 
+
+    Separador
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Análisis de contenido
+
+    p.mb-5(data-aos="flip-left") Como última metodología se presenta el análisis de contenido, vea en qué consiste:
+    
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-27.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El análisis de contenido consiste en la recolección y análisis de datos de forma paralela; las fuentes de información suelen ser documentos elaborados por terceros en un área específica, por lo que la parte de apropiar los datos directamente del entorno no tiene la prioridad como en las metodologías anteriores. 
+          br
+          br 
+          | Esta metodología es un buen complemento a la de la observación, puesto que hay situaciones que pueden haberse estudiado previamente, por lo que el análisis de contenido permite comparar resultados históricos con los actuales.
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-11.col-lg-10.col-12
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-28.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="4%" y="21%" numero="+")
+            p Si se indaga sobre los niveles de producción en una planta que funciona un número determinado de horas, se puede establecer una ratio de unidades producidas por hora de trabajo, que puede compararse con este mismo indicador de años anteriores: Así se puede evaluar si la maquinaria ha disminuido su productividad por temas de obsolescencia, daños u otras condiciones.
+
+    p.mb-3(data-aos="flip-left") Este sistema permite dar continuidad a procesos o sistemas de evaluación que fueron iniciados en el pasado, así se consigue progresar en términos de conocimiento o buenas prácticas. Situación muy común en ambientes productivos, por ejemplo, cuando se busca mejorar una receta utilizada en la elaboración de algún bien. Así es como las marcas toman una fórmula base y a través de modificaciones ofrecen productos diferentes. Este es el caso de empresas como Coca-Cola con su versión sin azúcar, o con sabor a café, su base sigue siendo la misma: pero, con ligeros ajustes que diversifican su oferta. 
+    p.mb-3(data-aos="flip-left") Este sistema también facilita el análisis comparativo, que es de vital importancia en las organizaciones, puesto que permite efectuar dos evaluaciones de un mismo proceso o actividad, separadas por una ventana de tiempo y medir así su evolución. Por otra parte, se pueden hacer análisis con otras empresas para determinar si las estrategias utilizadas son más o menos productivas que las de la competencia, esta práctica cuenta con gran aceptación a nivel empresarial y es conocida como benchmarking.
+    p.mb-3(data-aos="flip-left") La información por comparar puede ser de naturaleza cuantitativa o cualitativa. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-down")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-angle-right
+            | En los datos cuantitativos existe una mayor objetividad en cuanto a la evidencia, ya que las cifras en sí mismas permiten determinar variaciones positivas o negativas sin mayor trabajo. 
+          li
+            i.fas.fa-angle-right
+            | Caso contrario con la información cualitativa, puesto que al tratarse de datos descriptivos y, por tanto, abiertos a una interpretación, el criterio del analista puede diferir de los juicios que emitiría otro.
+
+    p.mb-5(data-aos="flip-right") Durante la ejecución del análisis de contenido lo más recomendable es desarrollar el trabajo cumpliendo con las siguientes tres fases:
+
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+      .col-md-10.col-lg-9.col-12
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-29.svg', alt='')
+          .tarjeta.color-acento-botones.p-3(x="77%" y="32%" numero="+")
+            p En primer lugar, se debe definir el objetivo de la investigación o auditoría a realizar, tener una imagen clara de la problemática o situación que se espera abordar y por la cual se motiva la recolección de la información. Es aconsejable elaborar un listado de las actividades a realizar, de tal forma que, si se espera replicar el ejercicio en periodos futuros, se pueda minimizar las diferencias en el proceso.
+          .tarjeta.color-acento-botones.p-3(x="77%" y="58%" numero="+")
+            p Con el alistamiento previo, es posible iniciar la indagación y consulta del contenido existente, bien sea el histórico de la propia entidad o el comparativo de otras empresas que operan en el mismo sector. Los datos relevantes que se vayan obteniendo deben ser registrados como evidencia de las futuras conclusiones. Es importante diseñar una hoja de instrucciones que describa la mecánica de la metodología aplicable al trabajo. Así, se deben definir por ejemplo las escalas de medición que se utilizarán, el tamaño de la muestra si aplica o el vocabulario con términos técnicos que hace falta tener presentes en el estudio.
+          .tarjeta.color-acento-botones.p-3(x="77%" y="84%" numero="+")
+            p Finalmente, se debe consolidar la información obtenida y efectuar la interpretación del contenido. En esta fase se presentan los resultados obtenidos con las justificaciones del caso, así como las propuestas sobre las acciones para solucionar la problemática expuesta en la primera fase.
+
 
 
       
