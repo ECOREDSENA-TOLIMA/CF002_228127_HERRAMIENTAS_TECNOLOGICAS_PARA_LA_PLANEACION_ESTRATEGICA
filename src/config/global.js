@@ -112,6 +112,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_002.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -124,32 +129,73 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Técnicas de recolección de la información',
+      referencia:
+        'Math2me. (2015). Tabulación de datos cualitativos [video]. YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6oLDbenzHrQ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Técnicas de recolección de la información',
+      referencia:
+        'Centro de Escritura Javeriano. (2020). Normas APA, séptima edición. Pontificia Universidad Javeriana, seccional Cali. ',
+      tipo: 'Adaptación/guía',
+      link:
+        'https://www.javerianacali.edu.co/centro-escritura/recursos/manual-apa-7a-edicion',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Informe',
+      significado: 'Documento elaborado con el fin de compartir información.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'ITIL',
+      significado:
+        'Biblioteca de infraestructura de tecnologías de información se define como el conjunto de buenas prácticas que ayudan a mejorar la prestación de un servicio, en particular un servicio de TI.',
+    },
+    {
+      termino: 'Liquidez',
+      significado:
+        'Capacidad de cubrir las obligaciones de corto plazo con efectivo o sus equivalentes.',
+    },
+    {
+      termino: 'Muestra',
+      significado: 'Conjunto de población sobre la que se extraerán los datos.',
+    },
+    {
+      termino: 'Población',
+      significado: 'Totalidad de individuos objeto de estudio.',
+    },
+    {
+      termino: 'Ponderación',
+      significado:
+        'Asignación de valor haciendo uso de una escala compartida con los demás elementos.',
+    },
+    {
+      termino: 'Refinanciación',
+      significado:
+        'Renegociar las condiciones de un crédito, generalmente para solicitar cuotas más bajas a costa de un mayor tiempo de pago.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Emanuelli, P., Egidos, D., Ortúzar, I., Blanco, C., Cárcar, F., Dorado, C., Ulla, C y García, D. (2012). Herramientas de metodología para investigar en comunicación. Técnicas de recolección y análisis de la información. Primera edición. Editorial Copy-Rápido. ',
+      link:
+        'https://filadd.com/doc/tomo2-1-manual-herramientas-de-metodol-para',
+    },
+    {
+      referencia:
+        'ManageEngine. (2020). Una guía extensa sobre cómo crear un catálogo de servicios de TI. ManageEngine. ',
+      link:
+        'https://www.manageengine.com/latam/service-desk/itsm/guia-catalogo-de-servicios-ti.html',
+    },
+    {
+      referencia:
+        'Qualtrics. (2020). Cómo calcular el tamaño de una muestra: asegúrese de que el muestreo sea correcto. Qualtrics. ',
+      link:
+        'https://www.qualtrics.com/es-la/gestion-de-la-experiencia/investigacion/calcular-tomano-muestra/',
     },
   ],
   creditos: [
@@ -162,9 +208,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -172,9 +218,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Andrés Felipe Avilán Lozano',
+          cargo: 'Experto Temático',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Santiago Muñoz de la Rosa',
+          cargo: 'Experto Temático',
+          centro:
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+        },
+        {
+          nombre: 'María Fernanda Chacón Castro',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -182,19 +260,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oscar Daniel Espitia Marín',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -202,14 +295,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
