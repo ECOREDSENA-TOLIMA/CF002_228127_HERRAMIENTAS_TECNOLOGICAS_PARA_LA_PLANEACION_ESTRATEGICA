@@ -19,12 +19,12 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Tipos de informes</i>
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Tipos de informes</i>
       .col-12.col-md-10.col-lg-8(data-aos="fade-right")
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure 
-              img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='')
+              img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='Figura 4. Tipos de informes según su extensión y su contenido. Según su extensión se divide ene ejecutivo y largo, y según su contenido según divulgativo, científico,  técnico y mixto.')
           .tarjeta.color-acento-botones.p-3(x="5%" y="43%" numero="+")
             p Es un documento conciso cuya extensión no supera las 10 páginas. Puede funcionar como resumen de un informe largo; su propósito es presentar la mayor cantidad de información relevante en una breve cantidad de páginas. Se utiliza en ámbitos corporativos de alto nivel, por ejemplo, en juntas directivas, donde se les informa a los participantes de mayor rango, los aspectos importantes de la ejecución administrativa, para sustentar la posterior toma de decisiones.
           .tarjeta.color-acento-botones.p-3(x="5%" y="60%" numero="+")
@@ -67,7 +67,7 @@
                   h4 Normas APA e INCONTEC
                   p.text-small Para conocer algunas de las generalidades de las Normas APA e INCONTEC se invita a consultar el siguiente PDF.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Cuadro comparativo normas para presentar informes.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_cuadro_comparativo_entre_el _flujo_de_solicitudes_y_el_RO.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

@@ -65,11 +65,11 @@
       .row(titulo="Método RICE")
         .col-md-11.col-12.mb-4.mb-md-0
           p Por sus siglas en inglés que traducen alcance (R), impacto (I), confianza (C) y esfuerzo (E). Es un sistema que busca calcular a través de una fórmula sencilla el valor de un índice que determinará cuál actividad realizar. La fórmula en concreto es la siguiente:
-          p R*I*C/E 
+          p Alcance (Reach) x Impacto x Confianza / Esfuerzo
           p De la fórmula se desprende que se favorecerán las opciones con mayor alcance, impacto y confianza al menor esfuerzo. Así, a todas las propuestas se les deberá asignar un valor por cada elemento y efectuar el cálculo para determinar cuál tiene el índice más alto.
       .row(titulo="Principio de Pareto")
         .col-md-11.col-12.mb-4.mb-md-0
-          p Una máxima bastante popular en cualquier ámbito, el principio de Pareto indica que el 80% de los resultados provienen de un 20% del esfuerzo. Esto apunta a que en cualquier aspecto de la vida siempre habrá una proporción (cercana al 20%) de situaciones que motivan o desencadenan el 80% de las consecuencias. Para hacer uso de esta metodología, basta con listar las actividades o alternativas a desarrollar para una problemática concreta, se asigna un valor porcentual en función de algún criterio de medición (frecuencia, impacto, facilidad, beneficio asociado) y se lista de mayor a menor porcentaje. La suma total debe ser equivalente al 100% y debe prestarse especial atención a aquellas situaciones que en conjunto representan la mayor proporción de tal porcentaje. 
+          p Una máxima bastante popular en cualquier ámbito, el principio de Pareto indica que el 80 % de los resultados provienen de un 20 % del esfuerzo. Esto apunta a que en cualquier aspecto de la vida siempre habrá una proporción (cercana al 20 %) de situaciones que motivan o desencadenan el 80 % de las consecuencias. Para hacer uso de esta metodología, basta con listar las actividades o alternativas a desarrollar para una problemática concreta, se asigna un valor porcentual en función de algún criterio de medición (frecuencia, impacto, facilidad, beneficio asociado) y se lista de mayor a menor porcentaje. La suma total debe ser equivalente al 100 % y debe prestarse especial atención a aquellas situaciones que en conjunto representan la mayor proporción de tal porcentaje. 
 
     p.mb-4(data-aos="flip-left") Observe el siguiente ejemplo para comprender mejor el principio de Pareto:
 
@@ -95,6 +95,8 @@
         
         p Se listan las causales de mayor a menor y se asigna el porcentaje de participación a cada uno de ellos, de igual forma, se presenta una columna en la que se vayan acumulando los porcentajes:
             
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Metodología de Pareto</i>
         .tabla-a.color-primario.mb-4
           table
             thead
@@ -107,30 +109,30 @@
               tr 
                 td.text-center Mala atención posventa
                 td.text-center 800
-                td.text-center 40%
-                td.text-center 40%
+                td.text-center 40 %
+                td.text-center 40 %
               tr 
                 td.text-center Diferencias con anuncios
                 td.text-center 600
-                td.text-center 30%
-                td.text-center 70%
+                td.text-center 30 %
+                td.text-center 70 %
               tr 
                 td.text-center Fallas en los productos
                 td.text-center 300
-                td.text-center 15%
-                td.text-center 85%
+                td.text-center 15 %
+                td.text-center 85 %
               tr 
                 td.text-center Deterioro acelerado
                 td.text-center 300
-                td.text-center 15%
-                td.text-center 100%
+                td.text-center 15 %
+                td.text-center 100 %
               tr 
                 th.text-center Total
                 th.text-center 2.000
-                th.text-center 100%
+                th.text-center 100 %
                 th.text-center
 
-        p(data-aos="fade-left") De la tabla anterior se interpreta que la mala atención después de la venta y la publicidad engañosa son las dos problemáticas que deben ser abordadas con mayor prioridad, puesto que concentran el 70% de los reclamos efectuados por los clientes. 
+        p(data-aos="fade-left") De la tabla anterior se interpreta que la mala atención después de la venta y la publicidad engañosa son las dos problemáticas que deben ser abordadas con mayor prioridad, puesto que concentran el 70 % de los reclamos efectuados por los clientes. 
 
 
 

@@ -33,7 +33,7 @@
             i.fas.fa-quote-left
             p.mb-0 La biblioteca de infraestructura de tecnologías de información (ITIL, por sus siglas en inglés) la define como "una práctica para soportar la calidad de los servicios acordados al manejar las solicitudes iniciadas por el usuario de una manera eficiente e intuitiva".
           .bloque-texto-d__autor 
-            .h6.mb-0 - Citado en ManageEngine, 2020
+            .h6.mb-0 - Citado en #[em ManageEngine], 2020
               i.fas.fa-quote-right
 
     p.mb-3(data-aos="fade-down") Dentro de los tipos de solicitud de servicio se puede encontrar:
@@ -46,21 +46,21 @@
         | Solicitud de acceso a un documento, servicio, plataforma o red.
       li.mb-0
         i.fas.fa-angle-right
-        | Solicitud de un recurso, en los casos cuando se necesitan periféricos hardware como una PC, #[i laptop], teclado o también puede ser #[i software].
+        | Solicitud de un recurso, en los casos cuando se necesitan periféricos <em>hardware</em> como una PC, #[i laptop], teclado o también puede ser #[i software].
 
-    p.mb-3(data-aos="fade-down") Las solicitudes de servicio deben cumplirse en función de flujos de trabajo ya definidos, que pueden variar su complejidad, por lo que es importante que dichos flujos de trabajo deben estandarizarse y probarse para prestar los servicios dentro de los niveles de servicio acordados o SLA (ManageEngine, 2020).
+    p.mb-3(data-aos="fade-down") Las solicitudes de servicio deben cumplirse en función de flujos de trabajo ya definidos, que pueden variar su complejidad, por lo que es importante que dichos flujos de trabajo deben estandarizarse y probarse para prestar los servicios dentro de los niveles de servicio acordados o SLA (#[em ManageEngine], 2020).
     p.mb-5(data-aos="fade-down") A continuación se presenta un ejemplo del flujo de trabajo de la gestión de solicitudes de servicio. 
 
     .row.justify-content-center.mb-5
       .col-12.col-md-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Ejemplo de flujo de trabajo de gestión de solicitudes</i>
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Ejemplo de flujo de trabajo de gestión de solicitudes</i>
       .col-12.col-md-10(data-aos="fade-right")
         figure 
-          img(src='@/assets/curso/temas/tema4/tema4-02.svg', alt='')
-        figcaption.mt-3 Nota. Tomado de ManageEngine (2020).
+          img(src='@/assets/curso/temas/tema4/tema4-02.svg', alt='Figura 5. Ejemplo de flujo de trabajo de gestión de solicitudes inicia con el portal de autoservicio, realizar una solicitud de servicio, enviar para aprobación, asignar técnicos, aplicar SLA, ejecutar tareas, entregar servicio y enviar respuestas.')
+        figcaption.mt-3 Nota. Tomado de #[em ManageEngine] (2020).
 
-    p.mb-5(data-aos="fade-down") Es muy importante que se relacione este flujo de trabajo con la gestión de las solicitudes y el rol que toma el catálogo de servicios frente a cada fase, según lo indica ManageEngine (2020):
+    p.mb-5(data-aos="fade-down") Es muy importante que se relacione este flujo de trabajo con la gestión de las solicitudes y el rol que toma el catálogo de servicios frente a cada fase, según lo indica #[em ManageEngine] (2020):
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.herramientas-3.p-0
@@ -79,7 +79,7 @@
         h5.text-center.titulo-herramientas-3 Flujo de trabajo de la gestión de solicitudes de servicio
         .row.m-3
           .col-12.herramientas-3.tarjeta--tabla.p-1
-            p El usuario final navega por el catálogo de servicios para conocer sus atributos o características (descripción, costos, SLA, etc.) y completa un formulario web.
+            p El usuario realiza una solicitud de servicio.
 
       .col-md-6.col-lg.herramientas-4.tarjeta--tabla.p-0
         h5.text-center.titulo-herramientas-4 Rol del catálogo de servicios

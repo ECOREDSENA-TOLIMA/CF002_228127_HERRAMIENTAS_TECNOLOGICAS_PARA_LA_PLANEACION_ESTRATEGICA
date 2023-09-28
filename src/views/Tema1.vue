@@ -25,23 +25,31 @@
 
     p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos vea el siguiente ejemplo:
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
-      .col-md-6.col-lg-5.col-10
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
-          .tarjeta.color-acento-botones.p-3(x="25%" y="91%" numero="+")
-            p Si tengo una lista de valores que no obedece a una escala ni presenta un orden determinado carece de significado; pero si conozco que esta lista corresponde a las unidades vendidas de cada uno de los productos que ofrece la empresa, trascienden de datos a información histórica o presente del volumen de ventas de una organización. Es así como obtienen relevancia y utilidad, pues permitirán medir la gestión comercial, el posicionamiento de la empresa o la evolución respecto a periodos anteriores.
+    .row.align-items-center.justify-content-center.mb-5.tarjeta.tarjeta--azul.p-4(data-aos="fade-down-left")
+      .col-md-8.col-lg-9.col-12
+        p Si tengo una lista de valores que no obedece a una escala ni presenta un orden determinado carece de significado; pero si conozco que esta lista corresponde a las unidades vendidas de cada uno de los productos que ofrece la empresa, trascienden de datos a información histórica o presente del volumen de ventas de una organización. Es así como obtienen relevancia y utilidad, pues permitirán medir la gestión comercial, el posicionamiento de la empresa o la evolución respecto a periodos anteriores.
+      .col-md-4.col-lg-3.col-8
+        img(src='@/assets/curso/temas/tema1/tema1-02-a.svg', alt='')
+
+    //- .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
+    //-   .col-md-6.col-lg-5.col-10
+    //-     ImagenInfografica.color-secundario
+    //-       template(v-slot:imagen)
+    //-         figure
+    //-           img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
+    //-       .tarjeta.color-acento-botones.p-3(x="25%" y="91%" numero="+")
+    //-         p Si tengo una lista de valores que no obedece a una escala ni presenta un orden determinado carece de significado; pero si conozco que esta lista corresponde a las unidades vendidas de cada uno de los productos que ofrece la empresa, trascienden de datos a información histórica o presente del volumen de ventas de una organización. Es así como obtienen relevancia y utilidad, pues permitirán medir la gestión comercial, el posicionamiento de la empresa o la evolución respecto a periodos anteriores.
 
     p.mb-5(data-aos="fade-down") La información se puede presentar de multitud de formas, obedeciendo a distintos criterios que toman mayor importancia según la disciplina en la que sean utilizados. En el campo empresarial algunas de las clasificaciones más utilizadas son: 
 
     p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
 
     .row.justify-content-center.mb-5
-      .col-12.col-md-8.col-lg-6(data-aos="fade-left")
+      .col-12.col-md-10.col-lg-8(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de información</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='Figura 1. Tipos de información clasificada según su naturaleza, su destinatario, su restricción donde se consolida información de tipo cualitativa, cuantitativa, interna, externa, privada y pública.')
 
 
     .tarjeta.color-primario.p-4.mb-5
@@ -61,7 +69,7 @@
           .col-md-6.mb-4.mb-md-0
             h4 Según su naturaleza
             p #[b Cuantitativa:]
-            p Este tipo de información se caracteriza por presentarse en cantidades, es decir, los datos son numéricos y obedecen a algún tipo de escala. Así, normalmente se hace uso de esta información para presentar datos de recaudo, ventas o apalancamiento. Goza de mayor objetividad, puesto que la escala no suele depender del investigador, ni del interprete. 
+            p Este tipo de información se caracteriza por presentarse en cantidades, es decir, los datos son numéricos y obedecen a algún tipo de escala. Así, normalmente se hace uso de esta información para presentar datos de recaudo, ventas o apalancamiento. Goza de mayor objetividad, puesto que la escala no suele depender del investigador, ni del intérprete. 
             p Por ejemplo, los días que pasan entre la venta de un producto y el recaudo del dinero, pueden contrastarse con los que da un proveedor después de entregar la materia prima, definir cuál ocupa un periodo de tiempo más largo no es susceptible a distintas opiniones.
           .col-md-6
             .row.align-items-center.justify-content-center
@@ -113,7 +121,7 @@
           .col-md-6.mb-4.mb-md-0
             h4 Según su restricción
             p #[b Privilegiada:]
-            p Es la información con mayor cantidad de barreras y dirigida a un número muy limitado de personas. Un claro ejemplo de ello son los códigos fuentes de software licenciado o las contraseñas de acceso a las cuentas bancarias. Su publicación o fuga puede llegar a tener un fuerte impacto sobre los intereses de la empresa y sus administradores.
+            p Es la información con mayor cantidad de barreras y dirigida a un número muy limitado de personas. Un claro ejemplo de ello son los códigos fuentes de #[em software] licenciado o las contraseñas de acceso a las cuentas bancarias. Su publicación o fuga puede llegar a tener un fuerte impacto sobre los intereses de la empresa y sus administradores.
           .col-md-6
             .row.align-items-center.justify-content-center
               .col-md-11.col-12
@@ -195,7 +203,7 @@
     p.mb-3(data-aos="flip-left") En términos prácticos, toda estrategia debe justificar su ejecución al aportar a la empresa más de lo que le cuesta. En este aspecto si una empresa busca implementar controles de calidad, estos deben reducir las pérdidas ocasionadas por productos defectuosos a los que se les solicita la garantía a un nivel en el que le ahorren a la empresa más gastos que los que demandó llevar a cabo la aplicación de los controles.
     h3.mb-3(data-aos="flip-left") Es muy importante que tenga en cuenta que:
     p.mb-3(data-aos="flip-left") Si las metodologías de recolección de información son muy complejas o requieren mucho tiempo y personal, su costo se irá incrementando de forma proporcional. Es por ello que durante la fase de planeación es necesario contar con un presupuesto detallado que contemple los recursos que serán necesarios. A partir de ello, se podrán programar medidas más o menos costosas. 
-    p.mb-5(data-aos="flip-left") Así, si se busca realizar acercamientos a trabajadores en las distintas sedes de una compañía que opera a nivel nacional, pueden evaluarse alternativas como video llamadas o comunicación diferida, que reduzcan los costos de desplazamiento, así como el tiempo que este tipo de labores involucra.
+    p.mb-5(data-aos="flip-left") Así, si se busca realizar acercamientos a trabajadores en las distintas sedes de una compañía que opera a nivel nacional, pueden evaluarse alternativas como videollamadas o comunicación diferida, que reduzcan los costos de desplazamiento, así como el tiempo que este tipo de labores involucra.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -205,8 +213,10 @@
 
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Ventajas de la metodología de observación</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/tema1-15.svg', alt='Figura 2. Ventajas de la metodología de observación se concentran en que requiere mínima inversión, puede ser realizada por una sola persona, facilita las tareas, minimiza tiempos en la generación de informes y ofrece respuestas que proyectan al futuro.')
 
     p.mb-5(data-aos="flip-left") Para aplicar la metodología de forma apropiada es recomendable efectuar una serie de acciones que apunten a obtener información en la cantidad y calidad suficiente para satisfacer los requerimientos asociados con el trabajo:
 
@@ -313,9 +323,9 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de entrevista</i>
+          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Tipos de entrevista</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-16.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/tema1-16.svg', alt='Figura 3. Tipos de entrevista son estructurada, semiestructurada y no estructurada que a su vez se divide en focaliza y no dirigida o en profundidad.')
 
     p.mb-5(data-aos="flip-left") La entrevista puede ser muy efectiva para obtener información de parte de los empleados o terceros involucrados con los procesos en evaluación, del acercamiento con ellos pueden surgir apreciaciones que los evaluadores han pasado por alto como, por ejemplo, la forma en la que reaccionan los clientes a las características específicas de un producto, su precio o su presentación. 
 
@@ -346,7 +356,7 @@
                       h4 Partes de la entrevista
                       p.text-small Para conocer qué se realiza en cada uno de estos momentos consulte el siguiente PDF.
                     .col-sm-auto
-                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/Partes de la entrevista.pdf')" target="_blank")
+                      a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Partes_de_la_entrevista.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
       div
@@ -382,7 +392,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-18.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El muestreo es la herramienta que hace posible la recolección de esta información sin necesidad de acudir a la totalidad de los sujetos. por ejemplo, para saber de qué fruta está hecha una bebida no hace falta beberla toda, con un pequeño sorbo se puede intuir el componente principal de todo el contenido. De esta misma forma funciona la muestra, con un grupo significativo que pertenece a una población mayor se puede tener resultados muy cercanos a los que se obtendrían consultándolos a todos. 
+            p.mb-0 El muestreo es la herramienta que hace posible la recolección de esta información sin necesidad de acudir a la totalidad de los sujetos, por ejemplo, para saber de qué fruta está hecha una bebida no hace falta beberla toda, con un pequeño sorbo se puede intuir el componente principal de todo el contenido. De esta misma forma funciona la muestra, con un grupo significativo que pertenece a una población mayor se puede tener resultados muy cercanos a los que se obtendrían consultándolos a todos. 
 
     p.mb-3(data-aos="flip-left") El sistema de muestreo puede ser tan improvisado o estructurado como se desee. Si se trata de análisis administrativos, en las empresas no existen requerimientos mínimos o máximos para llevar a cabo el trabajo, estas imposiciones son expresadas por los directivos interesados en los resultados. Situación diferente se da en el ámbito social o público, en el que las fichas técnicas en las que se listan los detalles de las encuestas deben cumplir con unos estándares técnicos que brinden una mayor credibilidad al ejercicio. 
     p.mb-5(data-aos="flip-left") Para adentrarse un poco más en el proceso de estimación de una muestra objetiva y que cumpla con los requisitos propios de un trabajo sistemático se presentan algunas de las metodologías más utilizadas con una breve reseña de su mecánica:
@@ -410,6 +420,9 @@
       .tarjeta.color-primario.p-4(titulo="Nivel de confianza")
         h4 Nivel de confianza
         p Luego, se revisa el #[b nivel de confianza] que es un parámetro definido por el investigador, con el que se determina qué tan preciso se quiere que sea el estudio, los valores utilizados con mayor frecuencia obedecen a un factor estimado como se indica en la siguiente tabla, en donde es posible observar la puntuación estándar según el nivel de confianza. 
+        
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Nivel de confianza</i>
         .tabla-a.color-primario.mb-4
           table
             caption Nota. Tomado de Qualtrics, (s.f.)
@@ -419,27 +432,27 @@
                 th Puntuación Estándar (Z)
             tbody
               tr 
-                td.text-center 90%
+                td.text-center 90 %
                 td.text-center 1.645
               tr 
-                td.text-center 95%
+                td.text-center 95 %
                 td.text-center 1.96
               tr 
-                td.text-center 99%
+                td.text-center 99 %
                 td.text-center 2.576
         p El nivel de confianza se relaciona con: la precisión del estudio, los valores utilizados, y el factor estimado.
       .tarjeta.color-primario.p-4(titulo="Margen de error (e)")
         h4 Margen de error (e)
-        p El #[b margen de error (e)] mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población, por ejemplo, en un estudio se obtiene que la estatura promedio de las personas de la muestra es de 1.80 con un margen de error del 5%. Este indicador implica que la población oscilará entre 1.71 y 1.89, es decir, un 5% menor o un 5% mayor del valor obtenido.
+        p El #[b margen de error (e)] mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población, por ejemplo, en un estudio se obtiene que la estatura promedio de las personas de la muestra es de 1.80 con un margen de error del 5 %. Este indicador implica que la población oscilará entre 1.71 y 1.89, es decir, un 5 % menor o un 5 % mayor del valor obtenido.
         p El margen de error se relaciona con el rango de tolerancia, la diferencia entre el resultado de la muestra y el de la población.
       .tarjeta.color-primario.p-4(titulo="Probabilidad de éxito (p)")
         h4 Probabilidad de éxito (p)
-        p La #[b probabilidad de éxito (p)] es un indicador que puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir, el 50%. 
-        p En relación a la probabilidad de éxito debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 50%.
+        p La #[b probabilidad de éxito (p)] es un indicador que puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir, el 50 %. 
+        p En relación a la probabilidad de éxito debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 50 %.
       .tarjeta.color-primario.p-4(titulo="Probabilidad de fracaso (q)")
         h4 Probabilidad de fracaso (q)
-        p La #[b probabilidad de fracaso (q)] como en el indicador anterior, obedece a la evidencia de estudios previos, la suma de la probabilidad de éxito más la del fracaso debe ser igual al 100% de los eventos. Así pues, la probabilidad de fracaso será igual al 100% menos la probabilidad de éxito, en otras palabras, q = 1 – p
-        p En relación a la probabilidad de fracaso debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 100%.
+        p La #[b probabilidad de fracaso (q)] como en el indicador anterior, obedece a la evidencia de estudios previos, la suma de la probabilidad de éxito más la del fracaso debe ser igual al 100 % de los eventos. Así pues, la probabilidad de fracaso será igual al 100 % menos la probabilidad de éxito, en otras palabras, q = 1 – p
+        p En relación a la probabilidad de fracaso debe tenerse en cuenta: los estudios previos, y la probabilidad de éxito y fracaso evaluada sobre el 100 %.
       .tarjeta.color-primario.p-4(titulo="Tamaño de la muestra")
         h4 Tamaño de la muestra
         p Para estimar el #[b tamaño de la muestra] se debe aplicar la siguiente ecuación:
@@ -457,7 +470,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
       .col-12.col-md-11.p-4(style="background-color:#E6F7DE")
         p.mb-3(data-aos="flip-left") Un ejemplo para estimar el tamaño de la muestra sería:
-        p.mb-3(data-aos="flip-left") Si se espera determinar el grado de satisfacción que genera una marca que tiene cerca de 2.000 clientes regulares, con un nivel de confianza del 95 % y un margen de error del 5%, el cálculo para estimar el tamaño de la muestra será el que se muestra en el desarrollo de la fórmula.
+        p.mb-3(data-aos="flip-left") Si se espera determinar el grado de satisfacción que genera una marca que tiene cerca de 2.000 clientes regulares, con un nivel de confianza del 95 % y un margen de error del 5 %, el cálculo para estimar el tamaño de la muestra será el que se muestra en el desarrollo de la fórmula.
         p.mb-3(data-aos="flip-left") Grado de satisfacción que genera una marca:
         div.mb-3
           img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-20.svg")
@@ -508,7 +521,7 @@
     .row.justify-content-center.mb-4
       .col-12.col-md-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Tabulación de datos cuantitativos</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Tabulación de datos cuantitativos</i>
         .tabla-a.color-primario.mb-4
           table
             thead
@@ -520,21 +533,21 @@
               tr 
                 td.text-center Menores de 18 años
                 td.text-center 27
-                td.text-center 27%
+                td.text-center 27 %
               tr 
                 td.text-center Mayores de 18 años y menores de 60 años
                 td.text-center 53
-                td.text-center 53%
+                td.text-center 53 %
               tr 
                 td.text-center Mayores de 60 años
                 td.text-center 20
-                td.text-center 20%
+                td.text-center 20 %
               tr 
                 th.text-center Total de encuestados
                 th.text-center 100
-                th.text-center 20%
+                th.text-center 20 %
 
-    p.mb-5(data-aos="flip-left") Como sistema de comprobación, la suma de las frecuencias absolutas debe ser equivalente al total de las personas encuestadas; de resultar menor puede deberse a que no se incluyó la respuesta de alguien en ella. La relativa, por su parte, al sumarse debe ser equivalente al 100%. 
+    p.mb-5(data-aos="flip-left") Como sistema de comprobación, la suma de las frecuencias absolutas debe ser equivalente al total de las personas encuestadas; de resultar menor puede deberse a que no se incluyó la respuesta de alguien en ella. La relativa, por su parte, al sumarse debe ser equivalente al 100 %. 
 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
