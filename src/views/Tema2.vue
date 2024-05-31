@@ -22,7 +22,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Matriz de priorización
 
-    p.mb-5(data-aos="flip-left") Esta herramienta corresponde a una tabla en la que se listan las opciones y cada uno de los criterios que apoyan o controvierten la elección de cada una de ellas. Funcionan de forma muy sencilla; pero, pueden aportar en la toma de decisiones. El objetivo es que al final se elija la opción que según los criterios dispuestos alcance mayor puntuación y se considere la más adecuada. Para utilizar este instrumento es importante tener claridad de los elementos clave y la forma en la que se debe proceder. Vea los pasos más relevantes: 
+    p.mb-5(data-aos="flip-left") Esta herramienta corresponde a una tabla en la que se listan las opciones y cada uno de los criterios que apoyan o controvierten la elección de cada una de ellas. Funcionan de forma muy sencilla; pero, pueden aportar en la toma de decisiones. El objetivo es que al final se elija la opción que según los criterios dispuestos alcance mayor puntuación y se considere la más adecuada. Para utilizar este instrumento es importante tener claridad de los elementos clave y la forma en la que se debe proceder. A continuación, los pasos más relevantes:
 
     .tarjeta.color-primario.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
@@ -56,7 +56,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/npTMvq02U0w" title="Ejemplo matriz de priorización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    p.mb-4(data-aos="flip-left") Existen otros sistemas de priorización utilizados; pero, su eje fundamental opera bajo el mismo sistema, es decir, determinar qué es lo más importante a través de una serie de criterios que contemplan tiempo, recursos, efectividad y esfuerzo. Vea esta breve reseña de algunos de ellos:
+    p.mb-4(data-aos="flip-left") Existen otros sistemas de priorización utilizados; pero, su eje fundamental opera bajo el mismo sistema, es decir, determinar qué es lo más importante a través de una serie de criterios que contemplan tiempo, recursos, efectividad y esfuerzo. A continuación, una  breve reseña de algunos de ellos:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario" data-aos="flip-left")
       .row(titulo="Pirámide de priorización")
@@ -71,7 +71,7 @@
         .col-md-11.col-12.mb-4.mb-md-0
           p Una máxima bastante popular en cualquier ámbito, el principio de Pareto indica que el 80 % de los resultados provienen de un 20 % del esfuerzo. Esto apunta a que en cualquier aspecto de la vida siempre habrá una proporción (cercana al 20 %) de situaciones que motivan o desencadenan el 80 % de las consecuencias. Para hacer uso de esta metodología, basta con listar las actividades o alternativas a desarrollar para una problemática concreta, se asigna un valor porcentual en función de algún criterio de medición (frecuencia, impacto, facilidad, beneficio asociado) y se lista de mayor a menor porcentaje. La suma total debe ser equivalente al 100 % y debe prestarse especial atención a aquellas situaciones que en conjunto representan la mayor proporción de tal porcentaje. 
 
-    p.mb-4(data-aos="flip-left") Observe el siguiente ejemplo para comprender mejor el principio de Pareto:
+    p.mb-4(data-aos="flip-left") Se presenta el siguiente ejemplo para comprender mejor el principio de Pareto:
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
       .col-12.col-md-11.p-4(style="background-color:#FFF7C4")

@@ -161,7 +161,7 @@
       h2 1.1 Criterios de selección
 
     p.mb-3(data-aos="flip-left") La información puede ser tomada del ambiente a partir de diferentes modelos; sin embargo, existen una serie de elementos que condicionan su naturaleza y, por lo tanto, responden mejor a ciertos procedimientos. A continuación, se presentan los aspectos a tener en cuenta a la hora de elegir el sistema más adecuado para la recolección de la información:
-    p.mb-5(data-aos="flip-left") Definir el tipo de información a recolectar: según el propósito y el área que se desee auditar o evaluar en una organización, el tipo de contenido con el que se puede encontrar el encargado del trabajo puede variar, por ejemplo, vea qué podría pasar en la evaluación de gestión del área financiera:
+    p.mb-5(data-aos="flip-left") Definir el tipo de información a recolectar: según el propósito y el área que se desee auditar o evaluar en una organización, el tipo de contenido con el que se puede encontrar el encargado del trabajo puede variar, a continuación, se presenta un ejemplo de  qué podría pasar en la evaluación de gestión del área financiera:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")(data-aos="zoom-down")
       .row(titulo="Opción 1")
@@ -177,7 +177,7 @@
         .col-md-8.col-lg-9.mb-4.mb-md-0
           p Si se espera diagnosticar: la aplicación de políticas de servicio al cliente, es probable que el análisis apunte a la revisión de testimonios, a las estrategias para abordar a quien presenta quejas o reclamos o la actitud de los asesores. Prima la información de aspecto cualitativo; el análisis y sus conclusiones pueden apegarse más al ámbito descriptivo, presentando reseñas sobre los elementos clave del trabajo efectuado por el personal de área evaluada.
 
-    p.mb-5(data-aos="flip-left") Estimar la cantidad de personas o elementos a indagar: si la evaluación se focaliza en un número reducido de personas o actividades el auditor puede efectuar un trabajo más individualizado, tratando con cada persona de forma directa y destinando todo el tiempo que considere necesario para obtener la mayor cantidad de información posible. Vea el siguiente ejemplo:
+    p.mb-5(data-aos="flip-left") Estimar la cantidad de personas o elementos a indagar: si la evaluación se focaliza en un número reducido de personas o actividades el auditor puede efectuar un trabajo más individualizado, tratando con cada persona de forma directa y destinando todo el tiempo que considere necesario para obtener la mayor cantidad de información posible. A continuación,  el siguiente ejemplo:
     
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down-left")
       .col-md-5.col-12.mb-4.mb-md-0
@@ -412,7 +412,7 @@
           p A diferencia de los sistemas anteriores, en este se obvia el azar a la hora de la escogencia de los individuos. Se realiza la selección de forma consciente, eligiendo cada persona de forma independiente. Al obedecer a la opinión del investigador, puede crear sesgos debido a la posición que tome el entrevistador, por ejemplo, trabajar con los empleados históricamente más problemáticos, los clientes que han interpuesto quejas o reclamos, o los proveedores que dependen de la empresa para mantenerse en el mercado, son situaciones que pueden llevar a conclusiones cuestionables.
       
     p.mb-3(data-aos="flip-left") Además del sistema de selección es importante determinar con qué proporción del total de la población se satisfacen las exigencias del estudio. Elegir el tamaño apropiado de la muestra para alcanzar estos objetivos puede ser tan complejo y preciso como se desee.
-    p.mb-3(data-aos="flip-left") Uno de los instrumentos que se pueden seleccionar de acuerdo con el tamaño de la muestra, es la encuesta, en su planeación es importante definir la proporción de la población según los objetivos trazados en la investigación. Vea algunos elementos esenciales que debe considerar.
+    p.mb-3(data-aos="flip-left") Uno de los instrumentos que se pueden seleccionar de acuerdo con el tamaño de la muestra, es la encuesta, en su planeación es importante definir la proporción de la población según los objetivos trazados en la investigación. A continuación,  algunos elementos esenciales que debe considerar.
     p.mb-3(data-aos="flip-left") Comience por pensar en #[b la población o universo (N)] que se refiere al total de individuos sobre los que se espera proyectar las conclusiones, por ejemplo, toda la población de un municipio, los estudiantes de un colegio o los trabajadores de una empresa.
     p.mb-5(data-aos="flip-left") A continuación, encontrará los elementos presentes al establecer el tamaño de la muestra:
 
@@ -513,7 +513,7 @@
         .cajon.color-acento-contenido.p-3
           p.mb-0 Para que la creación de intervalos resulte pertinente, se recomienda que sean excluyentes, es decir, que una respuesta no pueda estar en más de un intervalo a la vez, y que todas las respuestas encajen dentro de una de las categorías, evitando así, respuestas huérfanas que no tengan dónde tabularse.
 
-    p.mb-3(data-aos="flip-left") Estos intervalos obedecen a la opinión de quien lleva a cabo el trabajo, por lo que puede variar según criterios; en la medida de lo posible se recomiendan intervalos que sean parejos, de tal forma que cada uno agrupe un mismo rango de respuestas posibles. Esta situación no es imperativa, ya que en ciertos análisis puede resultar más conveniente el uso de intervalos irregulares con aplicación práctica. Para entender mejor, vea el siguiente ejemplo: 
+    p.mb-3(data-aos="flip-left") Estos intervalos obedecen a la opinión de quien lleva a cabo el trabajo, por lo que puede variar según criterios; en la medida de lo posible se recomiendan intervalos que sean parejos, de tal forma que cada uno agrupe un mismo rango de respuestas posibles. Esta situación no es imperativa, ya que en ciertos análisis puede resultar más conveniente el uso de intervalos irregulares con aplicación práctica. Para entender mejor, se presenta  el siguiente ejemplo:
     p.mb-5(data-aos="flip-left") Si la consulta en concreto es sobre la edad promedio de los clientes, los intervalos irregulares, según los sistemas demográficos, podrían ser más útiles. A continuación, se presenta una tabla en la que se resumen los resultados de una encuesta en la que se consultó la edad a cien personas:          
 
     .row.justify-content-center.mb-4
@@ -551,7 +551,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Análisis de contenido
 
-    p.mb-5(data-aos="flip-left") Como última metodología se presenta el análisis de contenido, vea en qué consiste:
+    p.mb-5(data-aos="flip-left") Como última metodología se presenta el análisis de contenido, que consiste en:
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
