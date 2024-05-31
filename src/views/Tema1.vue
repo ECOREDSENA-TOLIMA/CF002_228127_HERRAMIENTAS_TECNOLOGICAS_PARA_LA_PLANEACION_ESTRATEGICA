@@ -23,7 +23,7 @@
             br
             | #[b Cuando se otorga un contexto a los datos se transforman en información y se revisten de una función.]
 
-    p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos, vea el siguiente ejemplo:
+    p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos, se presenta el siguiente ejemplo:
 
     .row.align-items-center.justify-content-center.mb-5.tarjeta.tarjeta--azul.p-4(data-aos="fade-down-left")
       .col-md-8.col-lg-9.col-12
