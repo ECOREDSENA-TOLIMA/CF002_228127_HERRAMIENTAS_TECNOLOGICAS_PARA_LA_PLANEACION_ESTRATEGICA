@@ -479,9 +479,7 @@
         div.mb-3
           img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-22.svg" alt='n es igual a 1921 sobre 5.96.')
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-23.svg" alt='n es igual a n por z al cuadrado por p por q por e al cuadrado por, abro paréntesis, n menos 1, cierro paréntesis, más z al cuadrado por p por q.')
-        div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-24.svg" alt='n es igual a 322.4.')
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-23.svg" alt='n es igual a 322.4.')
         p Tamaño de la muestra
         div.mb-3
           img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-25.svg" alt='n igual a 322.4, que se aproxima a 323.')

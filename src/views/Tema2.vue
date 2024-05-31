@@ -65,7 +65,7 @@
       .row(titulo="Método RICE")
         .col-md-11.col-12.mb-4.mb-md-0
           p Por sus siglas en inglés que traducen alcance (R), impacto (I), confianza (C) y esfuerzo (E). Es un sistema que busca calcular a través de una fórmula sencilla el valor de un índice que determinará cuál actividad realizar. La fórmula en concreto es la siguiente:
-          p Alcance (Reach) x Impacto x Confianza / Esfuerzo
+          p.text-center(style="font-size: 1.5em") <sup>R*I*C</sup>&frasl;<sub>E</sub>
           p De la fórmula se desprende que se favorecerán las opciones con mayor alcance, impacto y confianza al menor esfuerzo. Así, a todas las propuestas se les deberá asignar un valor por cada elemento y efectuar el cálculo para determinar cuál tiene el índice más alto.
       .row(titulo="Principio de Pareto")
         .col-md-11.col-12.mb-4.mb-md-0

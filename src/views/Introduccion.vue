@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5(data-aos="fade-down") Cordial bienvenida a este componente formativo en el que se tratará la recolección de información y elaboración de informes. Para conocer la importancia del tema y los diferentes temas que se incluirán, se invita a ver el siguiente video:
+    p.mb-5(data-aos="fade-down") La recolección de información y la elaboración de informes son fundamentales en cualquier proceso de gestión y toma de decisiones. Comprender y aplicar las técnicas adecuadas para obtener, priorizar y presentar la información es esencial para garantizar la precisión y relevancia de los datos recopilados. En este componente formativo, se explorarán diversas técnicas de recolección de información, la priorización eficaz de la misma y la creación de informes claros y completos. Además, se abordará la elaboración de un catálogo de servicios de TI. Para profundizar en estos temas, se presenta a continuación un video que ilustra cada uno de estos aspectos en detalle:
 
     figure
       .video
