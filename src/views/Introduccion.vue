@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-5(data-aos="fade-down") Cordial bienvenida a este componente formativo en el que se tratará la recolección de información y elaboración de informes. Para conocer la importancia del tema y los diferentes temas que se incluirán se invita a ver el siguiente video:
+    p.mb-5(data-aos="fade-down") Cordial bienvenida a este componente formativo en el que se tratará la recolección de información y elaboración de informes. Para conocer la importancia del tema y los diferentes temas que se incluirán, se invita a ver el siguiente video:
 
     figure
       .video

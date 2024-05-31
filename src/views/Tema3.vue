@@ -14,7 +14,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Tipos
 
-    p.mb-3(data-aos="flip-left") La clasificación de los informes varía en función de los criterios utilizados, a continuación se presentan aquellos de mayor aplicación:
+    p.mb-3(data-aos="flip-left") La clasificación de los informes varía en función de los criterios utilizados, a continuación, se presentan aquellos de mayor aplicación:
 
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-8(data-aos="fade-left")
@@ -24,13 +24,13 @@
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure 
-              img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='Figura 4. Tipos de informes según su extensión y su contenido. Según su extensión se divide ene ejecutivo y largo, y según su contenido según divulgativo, científico,  técnico y mixto.')
+              img(src='@/assets/curso/temas/tema3/tema3-01.svg', alt='Figura 4. Tipos de informes según su extensión y su contenido. Según su extensión se divide en ejecutivo y largo, y según su contenido según divulgativo, científico, técnico y mixto.')
           .tarjeta.color-acento-botones.p-3(x="5%" y="43%" numero="+")
             p Es un documento conciso cuya extensión no supera las 10 páginas. Puede funcionar como resumen de un informe largo; su propósito es presentar la mayor cantidad de información relevante en una breve cantidad de páginas. Se utiliza en ámbitos corporativos de alto nivel, por ejemplo, en juntas directivas, donde se les informa a los participantes de mayor rango, los aspectos importantes de la ejecución administrativa, para sustentar la posterior toma de decisiones.
           .tarjeta.color-acento-botones.p-3(x="5%" y="60%" numero="+")
             p Su extensión supera las 10 páginas y no cuentan con un límite definido, por lo que el autor puede detallar todas las situaciones evidenciadas. Es el tipo de informe idóneo para problemáticas muy complejas o que comprenden muchas ideas útiles para el lector.
           .tarjeta.color-acento-botones.p-3(x="100%" y="43%" numero="+")
-            p Este tipo de informe se dirigen al público en general, presentan temáticas de amplio espectro y entendimiento por la población. Tienen un lenguaje sencillo para facilitar la comprensión de los lectores.
+            p Este tipo de informe se dirige al público en general, presentan temáticas de amplio espectro y entendimiento por la población. Tienen un lenguaje sencillo para facilitar la comprensión de los lectores.
           .tarjeta.color-acento-botones.p-3(x="100%" y="60%" numero="+")
             p Documentos más complejos que demandan conocimiento previo en la disciplina que abordan. Generalmente, presentan tecnicismos que limitan el entendimiento a un nicho concreto de lectores, usualmente son el resultado de trabajos de investigación.
           .tarjeta.color-acento-botones.p-3(x="100%" y="77.5%" numero="+")
@@ -46,7 +46,7 @@
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Estructura bajo las Normas APA
     
-    p.mb-4(data-aos="flip-left") Las Normas APA son un estándar creado por la Asociación de Psicólogos Americanos o APA por sus siglas en inglés, centrado en el establecimiento de lineamientos específicos para la producción de documentos escritos a nivel internacional. Su uso es de amplio espectro cubriendo desde trabajos académicos, de investigación o de naturaleza económica. Actualmente, cuentan con una gran popularidad por lo que son consideradas como el marco más utilizado en una gran porción de los sectores académicos, económicos y sociales alrededor del mundo. En su manual de aplicación se detallan las características específicas de cada uno de los apartados del documento, lo que incluye portada, resumen, introducción, resultados, citas, referencias, entre otros.
+    p.mb-4(data-aos="flip-left") Las Normas APA son un estándar creado por la Asociación de Psicólogos Americanos o APA por sus siglas en inglés, centrado en el establecimiento de lineamientos específicos para la producción de documentos escritos a nivel internacional. Su uso es de amplio espectro, cubriendo desde trabajos académicos, de investigación o de naturaleza económica. Actualmente, cuentan con una gran popularidad, por lo que son consideradas como el marco más utilizado en una gran porción de los sectores académicos, económicos y sociales alrededor del mundo. En su manual de aplicación se detallan las características específicas de cada uno de los apartados del documento, lo que incluye portada, resumen, introducción, resultados, citas, referencias, entre otros.
     
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Estructura bajo la Norma Técnica de Calidad (NTC 1486)

@@ -23,7 +23,7 @@
             br
             | #[b Cuando se otorga un contexto a los datos se transforman en información y se revisten de una función.]
 
-    p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos vea el siguiente ejemplo:
+    p.mb-5(data-aos="fade-down") Para comprender mejor estos conceptos, vea el siguiente ejemplo:
 
     .row.align-items-center.justify-content-center.mb-5.tarjeta.tarjeta--azul.p-4(data-aos="fade-down-left")
       .col-md-8.col-lg-9.col-12
@@ -40,7 +40,7 @@
     //-       .tarjeta.color-acento-botones.p-3(x="25%" y="91%" numero="+")
     //-         p Si tengo una lista de valores que no obedece a una escala ni presenta un orden determinado carece de significado; pero si conozco que esta lista corresponde a las unidades vendidas de cada uno de los productos que ofrece la empresa, trascienden de datos a información histórica o presente del volumen de ventas de una organización. Es así como obtienen relevancia y utilidad, pues permitirán medir la gestión comercial, el posicionamiento de la empresa o la evolución respecto a periodos anteriores.
 
-    p.mb-5(data-aos="fade-down") La información se puede presentar de multitud de formas, obedeciendo a distintos criterios que toman mayor importancia según la disciplina en la que sean utilizados. En el campo empresarial algunas de las clasificaciones más utilizadas son: 
+    p.mb-5(data-aos="fade-down") La información se puede presentar de multitud de formas, obedeciendo a distintos criterios que toman mayor importancia según la disciplina en la que sean utilizados. En el campo empresarial, algunas de las clasificaciones más utilizadas son: 
 
     p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
 
@@ -49,7 +49,7 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de información</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='Figura 1. Tipos de información clasificada según su naturaleza, su destinatario, su restricción donde se consolida información de tipo cualitativa, cuantitativa, interna, externa, privada y pública.')
+          img(src='@/assets/curso/temas/tema1/tema1-03.svg', alt='Figura 1. Tipos de información clasificada según su naturaleza, su destinatario, su restricción donde se consolida información de tipo cualitativa, cuantitativa, interna, externa, privilegiada, privada y pública.')
 
 
     .tarjeta.color-primario.p-4.mb-5
@@ -191,8 +191,8 @@
     p.mb-3(data-aos="flip-left") Una situación práctica que se genera con frecuencia es la recolección de información respecto a la calidad o efectividad de un producto o servicio vendido a los clientes de la organización. Un formulario que contenga preguntas concretas y rápidas de responder puede resultar una buena forma de realizar el primer acercamiento a la percepción general de la demanda respecto a una referencia en particular.
     p.mb-3(data-aos="flip-left") Evaluar las regulaciones aplicables: si el objetivo detrás del estudio es la implementación de estrategias en un proceso interno de mejora, las exigencias serán determinadas por la misma organización, lo que ofrece flexibilidad a la hora de elegir metodologías de recolección y análisis de los datos. 
     p.mb-3(data-aos="flip-left") De esta forma, el trabajo obedecerá a unos propósitos de gestión que pueden refinarse en la ejecución del trabajo. Así, el auditor o investigador puede tomar libertades creativas en la aplicación de medidas que apunten a la obtención de información veraz, diseñando papeles de trabajo a la medida.
-    p.mb-3(data-aos="flip-left") Si se trata de un trabajo enfocado a la certificación en algún estándar en particular el trabajo será mucho más regulado, lo que implica mantenerse dentro de un margen más restrictivo en cuanto a los sistemas aplicados para llevar a cabo la tarea. 
-    p.mb-3(data-aos="flip-left") Para este tipo de situaciones el trabajo del analista debe someterse a las indicaciones descritas por la autoridad competente, por lo que la elección de las metodologías de recolección probablemente no dependa de él.
+    p.mb-3(data-aos="flip-left") Si se trata de un trabajo enfocado a la certificación en algún estándar en particular, el trabajo será mucho más regulado, lo que implica mantenerse dentro de un margen más restrictivo en cuanto a los sistemas aplicados para llevar a cabo la tarea. 
+    p.mb-3(data-aos="flip-left") Para este tipo de situaciones, el trabajo del analista debe someterse a las indicaciones descritas por la autoridad competente, por lo que la elección de las metodologías de recolección probablemente no dependa de él.
     p.mb-5(data-aos="flip-left") Contemplar los recursos disponibles: los trabajos asociados con el estudio y análisis de la información pueden ser tan variados como la creatividad de los investigadores que los ejecutan.
 
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
@@ -202,7 +202,7 @@
 
     p.mb-3(data-aos="flip-left") En términos prácticos, toda estrategia debe justificar su ejecución al aportar a la empresa más de lo que le cuesta. En este aspecto si una empresa busca implementar controles de calidad, estos deben reducir las pérdidas ocasionadas por productos defectuosos a los que se les solicita la garantía a un nivel en el que le ahorren a la empresa más gastos que los que demandó llevar a cabo la aplicación de los controles.
     h3.mb-3(data-aos="flip-left") Es muy importante que tenga en cuenta que:
-    p.mb-3(data-aos="flip-left") Si las metodologías de recolección de información son muy complejas o requieren mucho tiempo y personal, su costo se irá incrementando de forma proporcional. Es por ello que durante la fase de planeación es necesario contar con un presupuesto detallado que contemple los recursos que serán necesarios. A partir de ello, se podrán programar medidas más o menos costosas. 
+    p.mb-3(data-aos="flip-left") Si las metodologías de recolección de información son muy complejas o requieren mucho tiempo y personal, su costo se irá incrementando de forma proporcional. Es por ello que, durante la fase de planeación, es necesario contar con un presupuesto detallado que contemple los recursos que serán necesarios. A partir de ello, se podrán programar medidas más o menos costosas. 
     p.mb-5(data-aos="flip-left") Así, si se busca realizar acercamientos a trabajadores en las distintas sedes de una compañía que opera a nivel nacional, pueden evaluarse alternativas como videollamadas o comunicación diferida, que reduzcan los costos de desplazamiento, así como el tiempo que este tipo de labores involucra.
 
     Separador
@@ -392,7 +392,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-18.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El muestreo es la herramienta que hace posible la recolección de esta información sin necesidad de acudir a la totalidad de los sujetos, por ejemplo, para saber de qué fruta está hecha una bebida no hace falta beberla toda, con un pequeño sorbo se puede intuir el componente principal de todo el contenido. De esta misma forma funciona la muestra, con un grupo significativo que pertenece a una población mayor se puede tener resultados muy cercanos a los que se obtendrían consultándolos a todos. 
+            p.mb-0 El muestreo es la herramienta que hace posible la recolección de esta información sin necesidad de acudir a la totalidad de los sujetos, por ejemplo, para saber de qué fruta está hecha una bebida no hace falta beberla toda, con un pequeño sorbo se puede intuir el componente principal de todo el contenido. De esta misma forma funciona la muestra, con un grupo significativo que pertenece a una población mayor, se pueden tener resultados muy cercanos a los que se obtendrían consultándolos a todos. 
 
     p.mb-3(data-aos="flip-left") El sistema de muestreo puede ser tan improvisado o estructurado como se desee. Si se trata de análisis administrativos, en las empresas no existen requerimientos mínimos o máximos para llevar a cabo el trabajo, estas imposiciones son expresadas por los directivos interesados en los resultados. Situación diferente se da en el ámbito social o público, en el que las fichas técnicas en las que se listan los detalles de las encuestas deben cumplir con unos estándares técnicos que brinden una mayor credibilidad al ejercicio. 
     p.mb-5(data-aos="flip-left") Para adentrarse un poco más en el proceso de estimación de una muestra objetiva y que cumpla con los requisitos propios de un trabajo sistemático se presentan algunas de las metodologías más utilizadas con una breve reseña de su mecánica:
@@ -457,7 +457,7 @@
         h4 Tamaño de la muestra
         p Para estimar el #[b tamaño de la muestra] se debe aplicar la siguiente ecuación:
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-19.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-19.svg" alt='n es igual a ene mayúscula por zeta al cuadrado por pe por q sobre e al cuadrado abro paréntesis ene mayúscula menos 1, cierro paréntesis más zeta al cuadrado por pe por q.')
         p Donde:
         p.mb-0 #[b n:] tamaño de la muestra.
         p.mb-0 #[b N:] población.
@@ -473,18 +473,18 @@
         p.mb-3(data-aos="flip-left") Si se espera determinar el grado de satisfacción que genera una marca que tiene cerca de 2.000 clientes regulares, con un nivel de confianza del 95 % y un margen de error del 5 %, el cálculo para estimar el tamaño de la muestra será el que se muestra en el desarrollo de la fórmula.
         p.mb-3(data-aos="flip-left") Grado de satisfacción que genera una marca:
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-20.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-20.svg" alt='n es igual a 2.000 por 1.96 al cuadrado por 0.5 por 0.5 sobre 0.05 cuadrado por, abro paréntesis, 2.000 menos 1, cierro paréntesis, más 1.96 al cuadrado por 0.5 por 0.5.')
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-21.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-21.svg" alt='n es igual a 2.000 por 3.84 por 0.25, sobre 5 más 0.96.')
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-22.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-22.svg" alt='n es igual a 1921 sobre 5.96.')
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-23.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-23.svg" alt='n es igual a n por z al cuadrado por p por q por e al cuadrado por, abro paréntesis, n menos 1, cierro paréntesis, más z al cuadrado por p por q.')
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-24.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-24.svg" alt='n es igual a 322.4.')
         p Tamaño de la muestra
         div.mb-3
-          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-25.svg")
+          img(style="width:auto !important" src="@/assets/curso/temas/tema1/tema1-25.svg" alt='n igual a 322.4, que se aproxima a 323.')
         p Con el desarrollo de la ecuación se puede determinar que el tamaño de la muestra que cumple con los criterios del investigador, que en el ejemplo resultó un número con decimales, por lo que el valor se debe aproximar al número entero siguiente, que en nuestro caso es 323 personas, ya que no es posible consultar una fracción de un individuo.
     p.mb-3(data-aos="flip-left") La encuesta es una de las metodologías de recolección de información de mayor facilidad de uso y practicidad en la actualidad; su aplicación tiene relevancia tanto en ambientes productivos y organizacionales, como en estudios académicos, sociales o económicos; lo anterior sustentado en su viabilidad para abordar poblaciones de tamaño considerable.
     p.mb-5(data-aos="flip-left") Para lograr consolidar las respuestas obtenidas resulta especialmente recomendable hacer uso de sistemas de consolidación de información como la elaboración de tablas donde se presenten los individuos en las filas y las respuestas en las columnas. Para que este trabajo sea posible es importante que las preguntas sean cerradas y respondan a un número, carácter o rango. 
@@ -513,7 +513,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="fade-down-left")
       .col-12.col-md-10.col-lg-8
         .cajon.color-acento-contenido.p-3
-          p.mb-0 Para que la creación de intervalos resulte pertinente se recomienda que sean excluyentes, es decir, que una respuesta no pueda estar en más de un intervalo a la vez, y que todas las respuestas encajen dentro de una de las categorías, evitando así, respuestas huérfanas que no tengan dónde tabularse.
+          p.mb-0 Para que la creación de intervalos resulte pertinente, se recomienda que sean excluyentes, es decir, que una respuesta no pueda estar en más de un intervalo a la vez, y que todas las respuestas encajen dentro de una de las categorías, evitando así, respuestas huérfanas que no tengan dónde tabularse.
 
     p.mb-3(data-aos="flip-left") Estos intervalos obedecen a la opinión de quien lleva a cabo el trabajo, por lo que puede variar según criterios; en la medida de lo posible se recomiendan intervalos que sean parejos, de tal forma que cada uno agrupe un mismo rango de respuestas posibles. Esta situación no es imperativa, ya que en ciertos análisis puede resultar más conveniente el uso de intervalos irregulares con aplicación práctica. Para entender mejor, vea el siguiente ejemplo: 
     p.mb-5(data-aos="flip-left") Si la consulta en concreto es sobre la edad promedio de los clientes, los intervalos irregulares, según los sistemas demográficos, podrían ser más útiles. A continuación, se presenta una tabla en la que se resumen los resultados de una encuesta en la que se consultó la edad a cien personas:          
@@ -596,9 +596,9 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-29.svg', alt='')
           .tarjeta.color-acento-botones.p-3(x="77%" y="32%" numero="+")
-            p En primer lugar, se debe definir el objetivo de la investigación o auditoría a realizar, tener una imagen clara de la problemática o situación que se espera abordar y por la cual se motiva la recolección de la información. Es aconsejable elaborar un listado de las actividades a realizar, de tal forma que, si se espera replicar el ejercicio en periodos futuros, se pueda minimizar las diferencias en el proceso.
+            p En primer lugar, se debe definir el objetivo de la investigación o auditoría a realizar, tener una imagen clara de la problemática o situación que se espera abordar y por la cual se motiva la recolección de la información. Es aconsejable elaborar un listado de las actividades a realizar, de tal forma que, si se espera replicar el ejercicio en periodos futuros, se puedan minimizar las diferencias en el proceso.
           .tarjeta.color-acento-botones.p-3(x="77%" y="58%" numero="+")
-            p Con el alistamiento previo, es posible iniciar la indagación y consulta del contenido existente, bien sea el histórico de la propia entidad o el comparativo de otras empresas que operan en el mismo sector. Los datos relevantes que se vayan obteniendo deben ser registrados como evidencia de las futuras conclusiones. Es importante diseñar una hoja de instrucciones que describa la mecánica de la metodología aplicable al trabajo. Así, se deben definir por ejemplo las escalas de medición que se utilizarán, el tamaño de la muestra si aplica o el vocabulario con términos técnicos que hace falta tener presentes en el estudio.
+            p Con el alistamiento previo, es posible iniciar la indagación y consulta del contenido existente, bien sea el histórico de la propia entidad o el comparativo de otras empresas que operan en el mismo sector. Los datos relevantes que se vayan obteniendo deben ser registrados como evidencia de las futuras conclusiones. Es importante diseñar una hoja de instrucciones que describa la mecánica de la metodología aplicable al trabajo. Así, se deben definir, por ejemplo, las escalas de medición que se utilizarán, el tamaño de la muestra si aplica o el vocabulario con términos técnicos que hace falta tener presentes en el estudio.
           .tarjeta.color-acento-botones.p-3(x="77%" y="84%" numero="+")
             p Finalmente, se debe consolidar la información obtenida y efectuar la interpretación del contenido. En esta fase se presentan los resultados obtenidos con las justificaciones del caso, así como las propuestas sobre las acciones para solucionar la problemática expuesta en la primera fase.
 

@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis del componente formativo 'Recolección de información y elaboración de informes', se puede evidenciar un proceso que consiste en recolectar, priorizar, informar y generar toda la información más relevante en una organización, con el fin de obtener un catálogo de servicios.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
