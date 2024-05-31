@@ -42,8 +42,6 @@
 
     p.mb-5(data-aos="fade-down") La información se puede presentar de multitud de formas, obedeciendo a distintos criterios que toman mayor importancia según la disciplina en la que sean utilizados. En el campo empresarial, algunas de las clasificaciones más utilizadas son: 
 
-    p.mb-4(data-aos="flip-left") En la siguiente figura se observa un resumen sobre los sectores económicos.
-
     .row.justify-content-center.mb-5
       .col-12.col-md-10.col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
