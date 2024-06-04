@@ -41,7 +41,7 @@
         .row.align-items-center.justify-content-center(titulo="4")
           .col-md-11.col-12.mb-4.mb-md-0
             h4 Asignación de valor
-            p En este paso, se deben ponderar los criterios, lo que implica asignarles un nivel de importancia según la escala definida por el equipo. Determinar cuánto peso tiene cada criterio en el consenso general es un aspecto clave, ya que puede hacer que algunas alternativas, en principio similares a otras, sean elegidas debido a que destacan en los criterios más relevantes.
+            p En este paso se deben ponderar los criterios, lo que implica darles un nivel de importancia según la escala que defina el equipo. Determinar cuánto peso tiene cada criterio en el consenso general es un aspecto clave, ya que puede hacer que algunas alternativas, en principio similares a otras, sean elegidas debido a que destacan en los criterios más relevantes.
         .row.align-items-center.justify-content-center(titulo="5")
           .col-md-11.col-12.mb-4.mb-md-0
             h4 Comparación de las alternativas
