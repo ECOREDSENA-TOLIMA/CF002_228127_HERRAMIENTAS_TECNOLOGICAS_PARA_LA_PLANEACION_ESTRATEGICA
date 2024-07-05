@@ -67,7 +67,7 @@
                   h4 Normas APA e INCONTEC
                   p.text-small Para conocer algunas de las generalidades de las Normas APA e INCONTEC se invita a consultar el siguiente PDF.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_cuadro_comparativo_entre_el _flujo_de_solicitudes_y_el_RO.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_Cuadro_comparativo_normas_para_presentar_informes.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
